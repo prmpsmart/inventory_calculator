@@ -66,7 +66,8 @@ class MainWindow(QWidget):
             main_window.show()
             MainWindow.instances.append(main_window)
 
-        except:
+        except Exception as e:
+            print(e)
             QMessageBox.warning(
                 self,
                 "Invalid inventory file",

@@ -29,7 +29,7 @@ class Inventory:
                 name = load.get("name", "")
                 items = load.get("items", [])
 
-                if isinstance(items, []):
+                if isinstance(items, list):
                     for item in items:
                         item_name = item.get("name", "")
                         item_count = item.get("count", 0)
