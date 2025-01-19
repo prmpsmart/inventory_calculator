@@ -1,4 +1,6 @@
 from .history_dialog import *
+from .table_widget import TableWidget
+from .field import Field
 
 
 class MainWindow(QWidget):
@@ -7,12 +9,15 @@ class MainWindow(QWidget):
     def __init__(self, parent: "MainWindow" = None, file: str = ""):
         super().__init__()
 
+        self.setMinimumSize(700, 500)
+
         self._parent = parent
         self.saved = True
 
         self.inventory: Inventory = Inventories.open_inventory(file)
 
         main_window_layout = QVBoxLayout(self)
+        main_window_layout.setSpacing(10)
 
         inventory_actions_layout = QHBoxLayout()
         main_window_layout.addLayout(inventory_actions_layout)
@@ -43,6 +48,56 @@ class MainWindow(QWidget):
         self.inventory_name_line_edit = QLineEdit()
         form_layout.addRow("Inventory Name:", self.inventory_name_line_edit)
         self.inventory_name_line_edit.textChanged.connect(self.on_edit)
+
+
+        totals_layout = QHBoxLayout()
+        main_window_layout.addLayout(totals_layout)
+
+        totals_layout.setSpacing(30)
+        totals_layout.addStretch()
+
+        self.total_items_field = Field("Items")
+        totals_layout.addWidget(self.total_items_field)
+
+        self.total_amount_field = Field("Amount")
+        totals_layout.addWidget(self.total_amount_field)
+
+
+        items_layout = QHBoxLayout()
+        main_window_layout.addLayout(items_layout)
+
+        items_actions_layout = QVBoxLayout()
+        items_layout.addLayout(items_actions_layout)
+
+        add_item_button = QPushButton("Add")
+        add_item_button.setToolTip("Add Item")
+        add_item_button.clicked.connect(self.on_add_item)
+        items_actions_layout.addWidget(add_item_button)
+
+        insert_item_button = QPushButton("Insert")
+        insert_item_button.setToolTip("Insert Item")
+        insert_item_button.clicked.connect(self.on_insert_item)
+        items_actions_layout.addWidget(insert_item_button)
+
+        remove_item_button = QPushButton("Remove")
+        remove_item_button.setToolTip("Remove Item")
+        remove_item_button.clicked.connect(self.on_remove_item)
+        items_actions_layout.addWidget(remove_item_button)
+
+        move_item_up_button = QPushButton("Move Up")
+        move_item_up_button.setToolTip("Move Item Up")
+        move_item_up_button.clicked.connect(self.on_move_item_up)
+        items_actions_layout.addWidget(move_item_up_button)
+
+        move_item_down_button = QPushButton("Move Down")
+        move_item_down_button.setToolTip("Move Item Down")
+        move_item_down_button.clicked.connect(self.on_move_item_down)
+        items_actions_layout.addWidget(move_item_down_button)
+
+        items_actions_layout.addStretch()
+
+        items_table = TableWidget(self.inventory)
+        items_layout.addWidget(items_table, 1)
 
     def on_recent_inventories(self):
         history = os.listdir(".")
@@ -85,6 +140,16 @@ class MainWindow(QWidget):
             self.inventory.file = file
 
         self.save_inventory()
+
+    def on_add_item(self): ...
+
+    def on_insert_item(self): ...
+
+    def on_remove_item(self): ...
+
+    def on_move_item_up(self): ...
+
+    def on_move_item_down(self): ...
 
     def mouseDoubleClickEvent(self, _):
         self.close()
