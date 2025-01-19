@@ -1,5 +1,6 @@
 from .main_window import *
 
+
 class Application(QApplication):
     def __init__(self):
         super().__init__([])
