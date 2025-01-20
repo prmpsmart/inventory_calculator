@@ -47,8 +47,8 @@ class MainWindow(QWidget):
 
         self.inventory_name_line_edit = QLineEdit()
         form_layout.addRow("Inventory Name:", self.inventory_name_line_edit)
+        self.inventory_name_line_edit.setText(self.inventory.name)
         self.inventory_name_line_edit.textChanged.connect(self.on_edit)
-
 
         totals_layout = QHBoxLayout()
         main_window_layout.addLayout(totals_layout)
@@ -62,54 +62,23 @@ class MainWindow(QWidget):
         self.total_amount_field = Field("Amount")
         totals_layout.addWidget(self.total_amount_field)
 
-
-        items_layout = QHBoxLayout()
-        main_window_layout.addLayout(items_layout)
-
-        items_actions_layout = QVBoxLayout()
-        items_layout.addLayout(items_actions_layout)
-
-        add_item_button = QPushButton("Add")
-        add_item_button.setToolTip("Add Item")
-        add_item_button.clicked.connect(self.on_add_item)
-        items_actions_layout.addWidget(add_item_button)
-
-        insert_item_button = QPushButton("Insert")
-        insert_item_button.setToolTip("Insert Item")
-        insert_item_button.clicked.connect(self.on_insert_item)
-        items_actions_layout.addWidget(insert_item_button)
-
-        remove_item_button = QPushButton("Remove")
-        remove_item_button.setToolTip("Remove Item")
-        remove_item_button.clicked.connect(self.on_remove_item)
-        items_actions_layout.addWidget(remove_item_button)
-
-        move_item_up_button = QPushButton("Move Up")
-        move_item_up_button.setToolTip("Move Item Up")
-        move_item_up_button.clicked.connect(self.on_move_item_up)
-        items_actions_layout.addWidget(move_item_up_button)
-
-        move_item_down_button = QPushButton("Move Down")
-        move_item_down_button.setToolTip("Move Item Down")
-        move_item_down_button.clicked.connect(self.on_move_item_down)
-        items_actions_layout.addWidget(move_item_down_button)
-
-        items_actions_layout.addStretch()
-
-        items_table = TableWidget(self.inventory)
-        items_layout.addWidget(items_table, 1)
+        self.items_table = TableWidget(self.inventory)
+        self.items_table.item_updated.connect(self.on_item_updated)
+        main_window_layout.addWidget(self.items_table, 1)
 
     def on_recent_inventories(self):
-        history = os.listdir(".")
-
-        if history:
-            self.history_dialog = HistoryDialog(self, history)
+        if Inventories.history:
+            self.history_dialog = HistoryDialog(self, Inventories.history)
             self.history_dialog.list_widget.itemClicked.connect(
                 self.recent_inventory_selected
             )
             self.history_dialog.show()
         else:
-            QMessageBox.information("No recents", "There is no recent inventories.")
+            QMessageBox.information(
+                self,
+                "No recents",
+                "There is no recent inventories.",
+            )
 
     def recent_inventory_selected(self, item: QListWidgetItem):
         self.history_dialog.close()
@@ -118,8 +87,21 @@ class MainWindow(QWidget):
     def on_new_inventory(self, file: str = ""):
         try:
             main_window = MainWindow(self, file)
-            main_window.show()
-            MainWindow.instances.append(main_window)
+
+            if file and self.inventory.is_empty:
+                self.inventory = main_window.inventory
+                self.inventory_name_line_edit.setText(self.inventory.name)
+                self.items_table.inventory = self.inventory
+                self.items_table.updateItems()
+                self.saved = True
+                self.setTitle()
+
+            else:
+                main_window.show()
+                MainWindow.instances.append(main_window)
+
+            if self.inventory.file:
+                Inventories.add_to_history(self.inventory)
 
         except Exception as e:
             print(e)
@@ -141,18 +123,9 @@ class MainWindow(QWidget):
 
         self.save_inventory()
 
-    def on_add_item(self): ...
-
-    def on_insert_item(self): ...
-
-    def on_remove_item(self): ...
-
-    def on_move_item_up(self): ...
-
-    def on_move_item_down(self): ...
-
-    def mouseDoubleClickEvent(self, _):
-        self.close()
+    def on_item_updated(self):
+        self.total_items_field.setField(self.inventory.total_items)
+        self.total_amount_field.setField(self.inventory.total_amount)
 
     @property
     def app(self):
@@ -165,6 +138,7 @@ class MainWindow(QWidget):
 
     def on_edit(self):
         self.saved = False
+        self.inventory.name = self.inventory_name_line_edit.text()
         self.setTitle()
 
     def setTitle(self):
@@ -189,3 +163,6 @@ class MainWindow(QWidget):
             self.setGeometry(new_main_window_geometry)
 
         self.setTitle()
+
+    def closeEvent(self, _):
+        self.inventory.save()

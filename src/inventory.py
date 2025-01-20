@@ -1,5 +1,6 @@
 import json
 import os
+from typing import Optional
 
 
 class Item:
@@ -7,6 +8,30 @@ class Item:
         self.name = name
         self.count = count
         self.price = price
+
+    @property
+    def amount(self) -> float:
+        return self.count * self.price
+
+    @classmethod
+    def number_to_money(self, number: int | float) -> str:
+        return f"{number:,}"
+
+    @property
+    def is_empty(self) -> bool:
+        return not (self.name or self.count or self.price)
+
+    @property
+    def values(self) -> list[str]:
+        return [
+            self.name,
+            self.number_to_money(self.count),
+            self.number_to_money(self.price),
+            self.number_to_money(self.amount),
+        ]
+
+    def __str__(self):
+        return f"{self.__class__.__name__}({self.__dict__})"
 
 
 class Inventory:
@@ -27,10 +52,12 @@ class Inventory:
             else:
                 load = json.load(open(file))
                 name = load.get("name", "")
-                items = load.get("items", [])
+                _items = load.get("items", [])
 
-                if isinstance(items, list):
-                    for item in items:
+                items = []
+
+                if isinstance(_items, list):
+                    for item in _items:
                         item_name = item.get("name", "")
                         item_count = item.get("count", 0)
                         item_price = item.get("price", 0)
@@ -48,7 +75,7 @@ class Inventory:
                             except:
                                 item_price = 0.0
 
-                        self.items.append(
+                        items.append(
                             Item(
                                 name=item_name,
                                 count=item_count,
@@ -63,20 +90,26 @@ class Inventory:
         self.items.append(item)
         return item
 
-    def add(
-        self,
-        *,
-        name: str,
-        count: int,
-        price: float,
-    ) -> Item:
-        return self.add_item(
-            Item(
-                name=name,
-                count=count,
-                price=price,
-            )
-        )
+    def add(self, *, name: str = "", count: int = 0, price: float = 0.0) -> Item:
+        return self.add_item(Item(name=name, count=count, price=price))
+
+    def item(self, index: int) -> Optional[Item]:
+        if index < len(self.items):
+            return self.items[index]
+
+    def item_values(self, index: int) -> list[str]:
+        if item := self.item(index):
+            return item.values
+        return [""] * 4
+
+    @property
+    def total_amount(self) -> str:
+        amount = sum([item.amount for item in self.items])
+        return Item.number_to_money(amount)
+
+    @property
+    def total_items(self) -> int:
+        return len(self.items)
 
     def insert_item(self, index: int, item: Item) -> None:
         if self.items:
@@ -96,7 +129,7 @@ class Inventory:
                 json.dump(
                     dict(
                         name=self.name,
-                        items=self.items,
+                        items=[item.__dict__ for item in self.items],
                     ),
                     open(self.file, "w"),
                 )
@@ -137,15 +170,22 @@ class Inventories:
         return open(self.history_path, mode)
 
     def save_history(self):
-        self.history_file("w").writelines(self.history)
+        file = self.history_file("w")
+        file.write('\n'.join(self.history))
+        file.close()
 
     def add_to_history(self, inventory: Inventory) -> None:
-        if inventory.file and inventory.file not in self.history:
-            self.history.append(inventory.file)
+        if inventory.file:
+            if inventory.file in self.history:
+                self.history.remove(inventory.file)
+
+            self.history = [inventory.file] + self.history
             self.save_history()
 
     def open_inventory(self, file: str) -> Inventory:
-        return Inventory(file=file)
+        inventory = Inventory(file=file)
+        self.add_to_history(inventory)
+        return inventory
 
     def close_inventory(self, inventory: Inventory) -> Inventory:
         if inventory.save():

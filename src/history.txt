@@ -1,0 +1,2 @@
+C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/income_2025.json
+C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/monthly_income_2025.json

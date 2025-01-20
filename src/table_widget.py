@@ -3,6 +3,8 @@ from .commons import *
 
 
 class TableWidget(QTableWidget):
+    item_updated = Signal()
+
     def __init__(self, inventory: Inventory):
         super().__init__()
         self.inventory = inventory
@@ -18,11 +20,10 @@ class TableWidget(QTableWidget):
         self.setWordWrap(True)
         self.setShowGrid(True)
         self.setAutoScroll(False)
-        self.setSortingEnabled(True)
+        # self.setSortingEnabled(True)
 
-        self.columns = ["Name", "Count", "Price", "Amount"]
-        self.setColumnCount(len(self.columns))
-        for index, column in enumerate(self.columns):
+        self.setColumnCount(len(COLUMNS))
+        for index, column in enumerate(COLUMNS):
             item = QTableWidgetItem()
             item.setText(column)
             font = item.font()
@@ -31,43 +32,74 @@ class TableWidget(QTableWidget):
             item.setFont(font)
             self.setHorizontalHeaderItem(index, item)
 
-        self.setRowCount(10)
-
-        self.cellDoubleClicked.connect(self.onCellDoubleClicked)
         self.itemChanged.connect(self.onItemChanged)
-
-        self.edited_item: QTableWidgetItem = None
-        self.saved_edited_item: QTableWidgetItem = None
 
         self.updateItems()
 
-    def onCellDoubleClicked(self, row: int, column: int):
-        self.edited_item = self.item(row, column)
-        self.print("onCellDoubleClicked")
-
-        # self.updateItems()
-
     def onItemChanged(self, item: QTableWidgetItem):
-        self.saved_edited_item = item
-        self.print("onItemChanged")
+        row = item.row()
+        column = item.column()
 
-        # self.updateItems()
+        column_name = COLUMNS_L[column]
+        type = COLUMNS_TYPE[column]
+        null = COLUMNS_NULL[column]
+
+        value = item.text()
+
+        try:
+            value = type(value)
+            if type == str:
+                value = value.strip()
+        except:
+            value = null
+
+        self.saved_edited_item = item
+        inventory_item = self.inventory.item(row)
+
+        if not inventory_item:
+            inventory_item = self.inventory.add()
+
+        setattr(inventory_item, column_name, value)
+
+        if inventory_item.is_empty:
+            self.inventory.remove_item(inventory_item)
+            inventory_item = None
+
+        self.updateItems()
 
     def print(self, *_, **__):
         if self.isVisible():
             print(*_, **__)
 
     def updateItems(self):
-        row = self.rowCount()
-        column = self.columnCount()
+        if not self.isVisible():
+            return
+
+        self.blockSignals(True)
+
+        self.setRowCount(self.inventory.total_items + 5)
+        lastColumn = self.columnCount() - 1
+        rowCount = self.rowCount()
 
         # set amount uneditable
-        for r in range(row):
-            for c in range(column):
-                if c != len(self.columns) - 1:
-                    continue
+        for row in range(rowCount):
+            values = self.inventory.item_values(row)
 
-                if not (item := self.item(r, c)):
-                    item = QTableWidgetItem()
-                    self.setItem(r, c, item)
-                item.setFlags(Qt.ItemFlag.NoItemFlags)
+            for column, value in enumerate(values):
+                table_item = self.item(row, column)
+
+                if (value or (column == lastColumn)) and not table_item:
+                    table_item = QTableWidgetItem()
+                    self.setItem(row, column, table_item)
+
+                if table_item:
+                    table_item.setText(value)
+
+                if column == lastColumn:
+                    table_item.setFlags(Qt.ItemFlag.NoItemFlags)
+
+        self.blockSignals(False)
+        self.item_updated.emit()
+
+    def showEvent(self, _):
+        self.updateItems()

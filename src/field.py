@@ -14,3 +14,6 @@ class Field(QFrame):
         self.field = QLabel("0")
         self.field.setStyleSheet("font-size: 18px; font-weight: bold;")
         layout.addWidget(self.field)
+
+    def setField(self, value):
+        self.field.setText(str(value))
