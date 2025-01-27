@@ -1,0 +1,655 @@
+{
+  "name": "My cash flow for 2025 starting from 25/01/2025",
+  "items": [
+    {
+      "name": "________________     JANUARY    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "25/01/2025 - Cash at hand \u2705",
+      "count": 1,
+      "price": 805000.0
+    },
+    {
+      "name": "26/01/2025 - Repay Kenny \u2705",
+      "count": 1,
+      "price": -20000.0
+    },
+    {
+      "name": "27/01/2025 - Salary from Truck and Wheels \u2705",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "27/01/2025 - Kenny repayed out of 250k loan given to her \u2705",
+      "count": 1,
+      "price": 200000.0
+    },
+    {
+      "name": "31/01/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "31/01/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "________________     FEBRUARY    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "10/02/2025 - Feeding allowance for February",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "11/02/2025 - Queens Lodge Rent",
+      "count": 1,
+      "price": -130000.0
+    },
+    {
+      "name": "20/02/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "25/02/2025 - Buy 5 plots of land",
+      "count": 5,
+      "price": -300000.0
+    },
+    {
+      "name": "28/02/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "28/02/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "28/02/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "28/02/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "28/02/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -118000.0
+    },
+    {
+      "name": "28/02/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "28/02/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "28/02/2025 - Give mom money to clear OSCOFED loan",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "________________     MARCH    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "10/03/2025 - Feeding allowance for April",
+      "count": 1,
+      "price": -40000.0
+    },
+    {
+      "name": "11/03/2025 - OSCOFED Loan to pay Honarable, Iyabo, Arowolo",
+      "count": 1,
+      "price": 1300000.0
+    },
+    {
+      "name": "11/03/2025 - Pay part of 800k loan from Honarable",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "11/03/2025 - Pay part of 300k loan from Iyabo",
+      "count": 1,
+      "price": -200000.0
+    },
+    {
+      "name": "11/03/2025 - Pay part of 1.5m loan from Arowolo",
+      "count": 1,
+      "price": -700000.0
+    },
+    {
+      "name": "20/03/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "25/03/2025 - Palm oil investing",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "31/03/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "31/03/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "31/03/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "31/03/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "31/03/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "31/03/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "31/03/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     APRIL    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "10/04/2025 - Feeding allowance for April",
+      "count": 1,
+      "price": -40000.0
+    },
+    {
+      "name": "20/04/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "30/04/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "30/04/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "30/04/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "30/04/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "30/04/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "30/04/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "30/04/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "30/04/2025 - Buy 5 plots of land",
+      "count": 5,
+      "price": -300000.0
+    },
+    {
+      "name": "________________     MAY    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "10/05/2025 - Feeding allowance for May",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/05/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "31/05/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "31/05/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "31/05/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "31/05/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "31/05/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "31/05/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "31/05/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     JUNE    _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "10/06/2025 - Feeding allowance for June",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/06/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "30/06/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "30/06/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "30/06/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "30/06/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "30/06/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "30/06/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "30/06/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     JULY   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/07/2025 - Repay part of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -120000.0
+    },
+    {
+      "name": "08/07/2025 - Pay remaining part of 800k loan from Honarable",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "08/07/2025 - Pay remaining part of 300k loan from Iyabo",
+      "count": 1,
+      "price": -100000.0
+    },
+    {
+      "name": "08/07/2025 - Pay another part of 1.5m loan from Arowolo",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "10/07/2025 - Feeding allowance for July",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/07/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "31/07/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "31/07/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "31/07/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "31/07/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "31/07/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "31/07/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "31/07/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     AUGUST   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/08/2025 - Repay part of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -130000.0
+    },
+    {
+      "name": "08/08/2025 - Pay remaining part of 1.5m loan from Arowolo",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "10/08/2025 - Feeding allowance for August",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/08/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "31/08/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "31/08/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "31/08/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "31/08/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "31/08/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "31/08/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "31/08/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "30/08/2025 - Help AGAM to repay 800k Loan from Honarable",
+      "count": 1,
+      "price": -400000.0
+    },
+    {
+      "name": "________________     SEPTEMBER   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/09/2025 - Repay part of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -130000.0
+    },
+    {
+      "name": "10/09/2025 - Feeding allowance for September",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/09/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "30/09/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "30/09/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "30/09/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "30/09/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "30/09/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0
+    },
+    {
+      "name": "30/09/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     OCTOBER   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/10/2025 - Repay part of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -130000.0
+    },
+    {
+      "name": "10/10/2025 - Feeding allowance for October",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/10/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "31/10/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
+    },
+    {
+      "name": "31/10/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "31/10/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "31/10/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "31/10/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "31/10/2025 - Allowance from NYSC",
+      "count": 2,
+      "price": 33000.0
+    },
+    {
+      "name": "31/10/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0
+    },
+    {
+      "name": "________________     NOVEMBER   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/11/2025 - Repay part of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -130000.0
+    },
+    {
+      "name": "10/11/2025 - Feeding allowance for November",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "20/11/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "30/11/2025 - AGAM pays interest on 700k Loan from Kenny",
+      "count": 1,
+      "price": 21000.0
+    },
+    {
+      "name": "30/11/2025 - Send received interest on 700k Loan to Kenny",
+      "count": 1,
+      "price": -21000.0
+    },
+    {
+      "name": "30/11/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0
+    },
+    {
+      "name": "30/11/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0
+    },
+    {
+      "name": "________________     DECEMBER   _________________",
+      "count": 0,
+      "price": 0.0
+    },
+    {
+      "name": "8/12/2025 - Repay remaining of OSCOFED 1.3m loan",
+      "count": 1,
+      "price": -260000.0
+    },
+    {
+      "name": "10/12/2025 - Feeding allowance for December",
+      "count": 1,
+      "price": -50000.0
+    },
+    {
+      "name": "15/12/2025 - Purchase ergonomic chair",
+      "count": 1,
+      "price": -300000.0
+    },
+    {
+      "name": "15/12/2025 - Purchase small comfortable bed",
+      "count": 1,
+      "price": -100000.0
+    },
+    {
+      "name": "15/12/2025 - Purchase tech table",
+      "count": 1,
+      "price": -100000.0
+    },
+    {
+      "name": "20/12/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0
+    },
+    {
+      "name": "31/21/2025 - Help AGAM to repay 700k Loan from Kenny",
+      "count": 1,
+      "price": -700000.0
+    }
+  ]
+}

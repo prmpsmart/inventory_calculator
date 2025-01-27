@@ -189,5 +189,8 @@ class MainWindow(QWidget):
 
         self.setTitle()
 
+    def mouseDoubleClickEvent(self, _):
+        self.close()
+
     def closeEvent(self, _):
         Inventories.close_inventory(self.inventory)

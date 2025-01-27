@@ -154,6 +154,7 @@ class TableWidget(QTableWidget):
                     table_item.setText(value)
                     if column == 1:
                         table_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+
                     elif column > 1:
                         table_item.setTextAlignment(Qt.AlignmentFlag.AlignRight)
 
@@ -163,9 +164,18 @@ class TableWidget(QTableWidget):
                         table_item.setBackground(Qt.GlobalColor.red)
                         table_item.setForeground(Qt.GlobalColor.white)
 
-                    if 0 < flow < 400 * 1000 and column == lastColumn:
-                        table_item.setBackground(Qt.GlobalColor.darkRed)
-                        table_item.setForeground(Qt.GlobalColor.white)
+                    if column == lastColumn and value:
+                        if 0 < flow < 100 * 10e2:
+                            table_item.setBackground(Qt.GlobalColor.darkRed)
+                            table_item.setForeground(Qt.GlobalColor.white)
+                            
+                        elif flow > 100 * 10e3:
+                            table_item.setBackground(Qt.GlobalColor.darkMagenta)
+                            table_item.setForeground(Qt.GlobalColor.white)
+
+                        if "\u2705" in values[0]:
+                            table_item.setBackground(Qt.GlobalColor.darkGreen)
+                            table_item.setForeground(Qt.GlobalColor.white)
 
                     if column >= amountColumn:
                         table_item.setFlags(Qt.ItemFlag.ItemIsEnabled)
