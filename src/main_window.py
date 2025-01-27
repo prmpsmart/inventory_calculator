@@ -9,7 +9,12 @@ class MainWindow(QWidget):
     def __init__(self, parent: "MainWindow" = None, file: str = ""):
         super().__init__()
 
-        self.setMinimumSize(700, 500)
+        if (not MainWindow.instances) and Inventories.history and (not file):
+            file = Inventories.history[0]
+
+        MainWindow.instances.append(self)
+
+        self.setMinimumSize(800, 500)
 
         self._parent = parent
         self.saved = True
@@ -53,11 +58,24 @@ class MainWindow(QWidget):
         totals_layout = QHBoxLayout()
         main_window_layout.addLayout(totals_layout)
 
-        totals_layout.setSpacing(30)
+        upButton = QPushButton("Up")
+        totals_layout.addWidget(upButton)
+
+        downButton = QPushButton("Down")
+        totals_layout.addWidget(downButton)
+
+        copyButton = QPushButton("Copy")
+        totals_layout.addWidget(copyButton)
+
+        deleteButton = QPushButton("Delete")
+        totals_layout.addWidget(deleteButton)
+
         totals_layout.addStretch()
 
         self.total_items_field = Field("Items")
         totals_layout.addWidget(self.total_items_field)
+
+        # totals_layout.addSpacing(30)
 
         self.total_amount_field = Field("Amount")
         totals_layout.addWidget(self.total_amount_field)
@@ -65,6 +83,12 @@ class MainWindow(QWidget):
         self.items_table = TableWidget(self.inventory)
         self.items_table.item_updated.connect(self.on_item_updated)
         main_window_layout.addWidget(self.items_table, 1)
+
+        upButton.clicked.connect(self.items_table.onUpButton)
+        downButton.clicked.connect(self.items_table.onDownButton)
+        copyButton.clicked.connect(self.items_table.onCopyButton)
+        deleteButton.clicked.connect(self.items_table.onDeleteButton)
+
 
     def on_recent_inventories(self):
         if Inventories.history:
@@ -98,7 +122,6 @@ class MainWindow(QWidget):
 
             else:
                 main_window.show()
-                MainWindow.instances.append(main_window)
 
             if self.inventory.file:
                 Inventories.add_to_history(self.inventory)
@@ -122,10 +145,12 @@ class MainWindow(QWidget):
             self.inventory.file = file
 
         self.save_inventory()
+        self.items_table.updateItems()
 
     def on_item_updated(self):
         self.total_items_field.setField(self.inventory.total_items)
         self.total_amount_field.setField(self.inventory.total_amount)
+        self.inventory.save()
 
     @property
     def app(self):
@@ -165,4 +190,4 @@ class MainWindow(QWidget):
         self.setTitle()
 
     def closeEvent(self, _):
-        self.inventory.save()
+        Inventories.close_inventory(self.inventory)

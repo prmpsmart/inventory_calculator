@@ -19,7 +19,7 @@ class TableWidget(QTableWidget):
         self.setAlternatingRowColors(True)
         self.setWordWrap(True)
         self.setShowGrid(True)
-        self.setAutoScroll(False)
+        self.setAutoScroll(True)
         # self.setSortingEnabled(True)
 
         self.setColumnCount(len(COLUMNS))
@@ -44,16 +44,15 @@ class TableWidget(QTableWidget):
         type = COLUMNS_TYPE[column]
         null = COLUMNS_NULL[column]
 
-        value = item.text()
+        value = item.text().strip()
 
         try:
+            if type != str:
+                value = value.strip().replace(",", "")
             value = type(value)
-            if type == str:
-                value = value.strip()
         except:
             value = null
 
-        self.saved_edited_item = item
         inventory_item = self.inventory.item(row)
 
         if not inventory_item:
@@ -65,11 +64,61 @@ class TableWidget(QTableWidget):
             self.inventory.remove_item(inventory_item)
             inventory_item = None
 
-        self.updateItems()
+        if (row > self.inventory.total_items + 2) or column:
+            self.updateItems()
 
     def print(self, *_, **__):
         if self.isVisible():
             print(*_, **__)
+
+    @property
+    def currentItemIndex(self) -> int:
+        currentRow = self.currentRow()
+
+        if currentRow >= self.inventory.total_items:
+            currentRow = self.inventory.total_items - 1
+
+        if currentRow < 0:
+            currentRow = 0
+
+        return currentRow
+
+    def moveItems(self, up: bool):
+        old = self.currentItemIndex
+        new = old + (-1 if up else 1)
+        self.inventory.items[new], self.inventory.items[old] = (
+            self.inventory.items[old],
+            self.inventory.items[new],
+        )
+        self.updateItems()
+        self.setCurrentCell(new, self.currentColumn())
+
+    def onUpButton(self):
+        if not (self.currentItemIndex and self.inventory.total_items):
+            return
+        self.moveItems(True)
+
+    def onDownButton(self):
+        total_items = self.inventory.total_items
+        if (not total_items) or (total_items - 1 == self.currentItemIndex):
+            return
+        self.moveItems(False)
+
+    def onCopyButton(self):
+        row = self.currentRow()
+        if row < 0 or (not self.inventory.total_items):
+            return
+
+        self.inventory.items.append(self.inventory.items[row].copy())
+        self.updateItems()
+
+    def onDeleteButton(self):
+        row = self.currentRow()
+        if row < 0 or (not self.inventory.total_items):
+            return
+
+        del self.inventory.items[row]
+        self.updateItems()
 
     def updateItems(self):
         if not self.isVisible():
@@ -79,24 +128,54 @@ class TableWidget(QTableWidget):
 
         self.setRowCount(self.inventory.total_items + 5)
         lastColumn = self.columnCount() - 1
+        amountColumn = lastColumn - 1
         rowCount = self.rowCount()
+
+        flow = 0
 
         # set amount uneditable
         for row in range(rowCount):
-            values = self.inventory.item_values(row)
+            values = self.inventory.item_values(row, flow)
 
             for column, value in enumerate(values):
+                if column > lastColumn:
+                    continue
+
+                if (column == lastColumn) and (_flow := value.replace(",", "").strip()):
+                    flow = float(_flow)
+
                 table_item = self.item(row, column)
 
-                if (value or (column == lastColumn)) and not table_item:
+                if not table_item:
                     table_item = QTableWidgetItem()
                     self.setItem(row, column, table_item)
 
                 if table_item:
                     table_item.setText(value)
+                    if column == 1:
+                        table_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
+                    elif column > 1:
+                        table_item.setTextAlignment(Qt.AlignmentFlag.AlignRight)
 
-                if column == lastColumn:
-                    table_item.setFlags(Qt.ItemFlag.NoItemFlags)
+                    if (values[2].startswith("-") and column in [0, 2, 3]) or (
+                        flow < 0 and column == lastColumn
+                    ):
+                        table_item.setBackground(Qt.GlobalColor.red)
+                        table_item.setForeground(Qt.GlobalColor.white)
+
+                    if 0 < flow < 400 * 1000 and column == lastColumn:
+                        table_item.setBackground(Qt.GlobalColor.darkRed)
+                        table_item.setForeground(Qt.GlobalColor.white)
+
+                    if column >= amountColumn:
+                        table_item.setFlags(Qt.ItemFlag.ItemIsEnabled)
+
+                    if "___" in values[0]:
+                        table_item.setBackground(Qt.GlobalColor.darkBlue)
+                        table_item.setForeground(Qt.GlobalColor.white)
+
+                        if column:
+                            table_item.setFlags(Qt.ItemFlag.NoItemFlags)
 
         self.blockSignals(False)
         self.item_updated.emit()

@@ -15,7 +15,7 @@ class Item:
 
     @classmethod
     def number_to_money(self, number: int | float) -> str:
-        return f"{number:,}"
+        return f"{number:,}" if number else ''
 
     @property
     def is_empty(self) -> bool:
@@ -32,6 +32,9 @@ class Item:
 
     def __str__(self):
         return f"{self.__class__.__name__}({self.__dict__})"
+
+    def copy(self) -> "Item":
+        return Item(name=self.name, count=self.count, price=self.price)
 
 
 class Inventory:
@@ -97,10 +100,11 @@ class Inventory:
         if index < len(self.items):
             return self.items[index]
 
-    def item_values(self, index: int) -> list[str]:
+    def item_values(self, index: int, flow: float = 0) -> list[str]:
         if item := self.item(index):
-            return item.values
-        return [""] * 4
+            amount = item.amount
+            return item.values + [Item.number_to_money(amount + flow or 0) if amount else '']
+        return [""] * 5
 
     @property
     def total_amount(self) -> str:
@@ -132,6 +136,7 @@ class Inventory:
                         items=[item.__dict__ for item in self.items],
                     ),
                     open(self.file, "w"),
+                    indent=2,
                 )
                 return True
             except Exception as e:
@@ -171,7 +176,7 @@ class Inventories:
 
     def save_history(self):
         file = self.history_file("w")
-        file.write('\n'.join(self.history))
+        file.write("\n".join(self.history))
         file.close()
 
     def add_to_history(self, inventory: Inventory) -> None:
