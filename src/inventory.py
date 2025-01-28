@@ -60,7 +60,7 @@ class Inventory:
                 items = []
 
                 if isinstance(_items, list):
-                    for item in _items:
+                    for _, item in enumerate(_items):
                         item_name = item.get("name", "")
                         item_count = item.get("count", 0)
                         item_price = item.get("price", 0)

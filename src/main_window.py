@@ -190,7 +190,10 @@ class MainWindow(QWidget):
         self.setTitle()
 
     def mouseDoubleClickEvent(self, _):
-        self.close()
+        self.colorDialog = QColorDialog(self)
+        self.colorDialog.show()
+
+        # self.close()
 
     def closeEvent(self, _):
         Inventories.close_inventory(self.inventory)
