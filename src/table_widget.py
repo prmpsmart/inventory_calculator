@@ -150,13 +150,21 @@ class TableWidget(QTableWidget):
                     table_item = QTableWidgetItem()
                     self.setItem(row, column, table_item)
 
+                table_item.setFlags(
+                    Qt.ItemFlag.ItemIsEditable | Qt.ItemFlag.ItemIsEnabled
+                )
+                table_item.setBackground(Qt.GlobalColor.gray)
+                table_item.setForeground(Qt.GlobalColor.white)
+
                 if table_item:
                     table_item.setText(value)
-                    if column == 1:
+                    if column == 1 or "___" in values[0]:
                         table_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
 
                     elif column > 1:
                         table_item.setTextAlignment(Qt.AlignmentFlag.AlignRight)
+                    elif len(values[0]) > 80:
+                        table_item.setSizeHint(QSize(450, 60))
 
                     if (values[2].startswith("-") and column in [0, 2, 3]) or (
                         flow < 0 and column == lastColumn
@@ -186,6 +194,8 @@ class TableWidget(QTableWidget):
 
                         if column:
                             table_item.setFlags(Qt.ItemFlag.NoItemFlags)
+
+        self.resizeRowsToContents()
 
         self.blockSignals(False)
         self.item_updated.emit()

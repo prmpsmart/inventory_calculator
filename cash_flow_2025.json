@@ -32,14 +32,14 @@
       "price": 33000.0
     },
     {
-      "name": "31/01/2025 - AGAM pays repayment on 900k from Miracle",
-      "count": 1,
-      "price": 90000.0
-    },
-    {
       "name": "________________     FEBRUARY    _________________",
       "count": 0,
       "price": 0.0
+    },
+    {
+      "name": "7/02/2025 - AGAM pays repayment on 900k from Miracle",
+      "count": 1,
+      "price": 90000.0
     },
     {
       "name": "10/02/2025 - Feeding allowance for February",
@@ -332,6 +332,16 @@
       "price": 70000.0
     },
     {
+      "name": "31/06/2025 - Help AGAM to repay 700k Loan from Kenny",
+      "count": 1,
+      "price": -700000.0
+    },
+    {
+      "name": "31/06/2025 - Give mom 600k to add to the 700k I help to pay Kenny, she should then use it to pay off Arowolo (800k), Honourable (400k) and Iyabo (100k) to make it the remaining 1.3m",
+      "count": 1,
+      "price": -600000.0
+    },
+    {
       "name": "________________     JULY   _________________",
       "count": 0,
       "price": 0.0
@@ -342,21 +352,6 @@
       "price": -120000.0
     },
     {
-      "name": "08/07/2025 - Pay remaining part of 800k loan from Honarable",
-      "count": 1,
-      "price": -400000.0
-    },
-    {
-      "name": "08/07/2025 - Pay remaining part of 300k loan from Iyabo",
-      "count": 1,
-      "price": -100000.0
-    },
-    {
-      "name": "08/07/2025 - Pay another part of 1.5m loan from Arowolo",
-      "count": 1,
-      "price": -400000.0
-    },
-    {
       "name": "10/07/2025 - Feeding allowance for July",
       "count": 1,
       "price": -50000.0
@@ -365,21 +360,6 @@
       "name": "20/07/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0
-    },
-    {
-      "name": "31/07/2025 - AGAM pays repayment on 900k from Miracle",
-      "count": 1,
-      "price": 90000.0
-    },
-    {
-      "name": "31/07/2025 - AGAM pays interest on 700k Loan from Kenny",
-      "count": 1,
-      "price": 21000.0
-    },
-    {
-      "name": "31/07/2025 - Send received interest on 700k Loan to Kenny",
-      "count": 1,
-      "price": -21000.0
     },
     {
       "name": "31/07/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
@@ -412,11 +392,6 @@
       "price": -130000.0
     },
     {
-      "name": "08/08/2025 - Pay remaining part of 1.5m loan from Arowolo",
-      "count": 1,
-      "price": -400000.0
-    },
-    {
       "name": "10/08/2025 - Feeding allowance for August",
       "count": 1,
       "price": -50000.0
@@ -430,16 +405,6 @@
       "name": "31/08/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0
-    },
-    {
-      "name": "31/08/2025 - AGAM pays interest on 700k Loan from Kenny",
-      "count": 1,
-      "price": 21000.0
-    },
-    {
-      "name": "31/08/2025 - Send received interest on 700k Loan to Kenny",
-      "count": 1,
-      "price": -21000.0
     },
     {
       "name": "31/08/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
@@ -460,11 +425,6 @@
       "name": "31/08/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0
-    },
-    {
-      "name": "30/08/2025 - Help AGAM to repay 800k Loan from Honarable",
-      "count": 1,
-      "price": -400000.0
     },
     {
       "name": "________________     SEPTEMBER   _________________",
@@ -490,11 +450,6 @@
       "name": "30/09/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0
-    },
-    {
-      "name": "30/09/2025 - Send received interest on 700k Loan to Kenny",
-      "count": 1,
-      "price": -21000.0
     },
     {
       "name": "30/09/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
@@ -542,16 +497,6 @@
       "price": 90000.0
     },
     {
-      "name": "31/10/2025 - AGAM pays interest on 700k Loan from Kenny",
-      "count": 1,
-      "price": 21000.0
-    },
-    {
-      "name": "31/10/2025 - Send received interest on 700k Loan to Kenny",
-      "count": 1,
-      "price": -21000.0
-    },
-    {
       "name": "31/10/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0
@@ -590,16 +535,6 @@
       "name": "20/11/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0
-    },
-    {
-      "name": "30/11/2025 - AGAM pays interest on 700k Loan from Kenny",
-      "count": 1,
-      "price": 21000.0
-    },
-    {
-      "name": "30/11/2025 - Send received interest on 700k Loan to Kenny",
-      "count": 1,
-      "price": -21000.0
     },
     {
       "name": "30/11/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
@@ -645,11 +580,6 @@
       "name": "20/12/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0
-    },
-    {
-      "name": "31/21/2025 - Help AGAM to repay 700k Loan from Kenny",
-      "count": 1,
-      "price": -700000.0
     }
   ]
 }
