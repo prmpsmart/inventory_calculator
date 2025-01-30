@@ -1,4 +1,4 @@
-import xlsxwriter, os, win32com.client
+import xlsxwriter, os, win32com.client, datetime
 import xlsxwriter.format
 import xlsxwriter.worksheet
 from src.commons import COLUMNS
@@ -8,8 +8,15 @@ COLUMNS = ["Date", *COLUMNS]
 
 
 def inventory_to_excel(file: str) -> str:
-    basename = os.path.splitext(file)[0]
-    path = f"{basename}.xlsx"
+    dirname = os.path.dirname(file)
+    basename = os.path.splitext(os.path.basename(file))[0]
+
+    dt = datetime.datetime.now().isoformat("T").replace(":", ".")
+    date = dt.split("T")[0]
+
+    os.makedirs(date, exist_ok=True)
+
+    path = f"{dirname}/{date}/{basename}_{dt}.xlsx"
 
     inventory = Inventory(file=file)
 
