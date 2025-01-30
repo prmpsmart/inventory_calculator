@@ -30,6 +30,7 @@ def inventory_to_excel(file: str) -> str:
             bold=True,
             font_size=18,
             align="vcenter",
+            bg_color="#a0a0a4",
         )
     )
     title_format.set_align("center")
@@ -51,9 +52,16 @@ def inventory_to_excel(file: str) -> str:
             align="center",
         )
     )
-    date_format = workbook.add_format()
+    date_format = workbook.add_format(
+        dict(
+            bg_color="#a0a0a4",
+            has_fill=True,
+        )
+    )
     name_format = workbook.add_format(
         dict(
+            bg_color="#a0a0a4",
+            has_fill=True,
             text_wrap=True,
         )
     )
@@ -68,11 +76,15 @@ def inventory_to_excel(file: str) -> str:
     count_format = workbook.add_format(
         dict(
             align="center",
+            bg_color="#a0a0a4",
+            has_fill=True,
         )
     )
     naira_format = workbook.add_format(
         dict(
             num_format="₦ #,##0.00",
+            bg_color="#a0a0a4",
+            has_fill=True,
         )
     )
     red_naira_format = workbook.add_format(
@@ -126,6 +138,7 @@ def inventory_to_excel(file: str) -> str:
         format.set_font_size(11)
         format.set_border(1)
         format.set_align("vcenter")
+        format.set_font_color("white")
 
     worksheet.merge_range(0, 0, 1, 5, inventory.name, title_format)
 
