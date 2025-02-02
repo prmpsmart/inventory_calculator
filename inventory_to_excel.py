@@ -6,6 +6,8 @@ from src.inventory import Inventory
 
 COLUMNS = ["Date", *COLUMNS]
 
+naira = '₦'
+naira = '$'
 
 def inventory_to_excel(file: str) -> str:
     dirname = os.path.dirname(file)
@@ -89,14 +91,14 @@ def inventory_to_excel(file: str) -> str:
     )
     naira_format = workbook.add_format(
         dict(
-            num_format="₦ #,##0.00",
+            num_format=f"{naira} #,##0.00",
             bg_color="#a0a0a4",
             has_fill=True,
         )
     )
     red_naira_format = workbook.add_format(
         dict(
-            num_format="₦ #,##0.00",
+            num_format=f"{naira} #,##0.00",
             bg_color="#ff0000",
             has_fill=True,
             font_color="#ffffff",
@@ -104,7 +106,7 @@ def inventory_to_excel(file: str) -> str:
     )
     green_naira_format = workbook.add_format(
         dict(
-            num_format="₦ #,##0.00",
+            num_format=f"{naira} #,##0.00",
             bg_color="#008000",
             has_fill=True,
             font_color="#ffffff",
@@ -112,7 +114,7 @@ def inventory_to_excel(file: str) -> str:
     )
     purple_naira_format = workbook.add_format(
         dict(
-            num_format="₦ #,##0.00",
+            num_format=f"{naira} #,##0.00",
             bg_color="#800080",
             has_fill=True,
             font_color="#ffffff",
@@ -120,7 +122,7 @@ def inventory_to_excel(file: str) -> str:
     )
     darkRed_naira_format = workbook.add_format(
         dict(
-            num_format="₦ #,##0.00",
+            num_format=f"{naira} #,##0.00",
             bg_color="#800000",
             has_fill=True,
             font_color="#ffffff",
