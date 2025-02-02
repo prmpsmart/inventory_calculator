@@ -245,4 +245,4 @@ excel_file = inventory_to_excel(json_file)
 pdf_file = print_excel_to_pdf(excel_file)
 
 # os.system(excel_file)
-os.system(pdf_file)
+# os.system(pdf_file)
