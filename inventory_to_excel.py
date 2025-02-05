@@ -149,7 +149,7 @@ def inventory_to_excel(file: str) -> str:
         format.set_align("vcenter")
         format.set_font_color("white")
 
-    worksheet.merge_range(0, 0, 1, 5, inventory.name, title_format)
+    worksheet.merge_range(0, 0, 1, 5, f'{dt} | {inventory.name}', title_format)
 
     for index, header in enumerate(COLUMNS):
         worksheet.write(2, index, header, header_format)
