@@ -166,7 +166,7 @@ class TableWidget(QTableWidget):
                     elif len(values[0]) > 80:
                         table_item.setSizeHint(QSize(450, 60))
 
-                    if (values[2].startswith("-") and column in [0, 2, 3]) or (
+                    if value and (values[2].startswith("-") and column in [0, 2, 3]) or (
                         flow < 0 and column == lastColumn
                     ):
                         table_item.setBackground(Qt.GlobalColor.red)

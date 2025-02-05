@@ -4,10 +4,11 @@ from typing import Optional
 
 
 class Item:
-    def __init__(self, *, name: str, count: int, price: float) -> None:
+    def __init__(self, *, name: str, count: int, price: float, number:int=0) -> None:
         self.name = name
         self.count = count
         self.price = price
+        self.number = number
 
     @property
     def amount(self) -> float:
@@ -60,7 +61,7 @@ class Inventory:
                 items = []
 
                 if isinstance(_items, list):
-                    for _, item in enumerate(_items):
+                    for number, item in enumerate(_items):
                         item_name = item.get("name", "")
                         item_count = item.get("count", 0)
                         item_price = item.get("price", 0)
@@ -83,6 +84,7 @@ class Inventory:
                                 name=item_name,
                                 count=item_count,
                                 price=item_price,
+                                number=number,
                             )
                         )
 

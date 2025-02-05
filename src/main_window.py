@@ -14,7 +14,7 @@ class MainWindow(QWidget):
 
         MainWindow.instances.append(self)
 
-        self.setMinimumSize(800, 500)
+        self.setMinimumSize(1000, 500)
 
         self._parent = parent
         self.saved = True
@@ -89,6 +89,8 @@ class MainWindow(QWidget):
         copyButton.clicked.connect(self.items_table.onCopyButton)
         deleteButton.clicked.connect(self.items_table.onDeleteButton)
 
+        self.setStyleSheet('font-size: 16px; font-weight: 500')
+
 
     def on_recent_inventories(self):
         if Inventories.history:
@@ -145,7 +147,7 @@ class MainWindow(QWidget):
             self.inventory.file = file
 
         self.save_inventory()
-        self.items_table.updateItems()
+        # self.items_table.updateItems()
 
     def on_item_updated(self):
         self.total_items_field.setField(self.inventory.total_items)
@@ -186,14 +188,17 @@ class MainWindow(QWidget):
                 10, 30, 0, 0
             )
             self.setGeometry(new_main_window_geometry)
+        else:
+            self.setGeometry(907, 31, 1000, 1000)
+            ...
 
         self.setTitle()
 
     def mouseDoubleClickEvent(self, _):
-        self.colorDialog = QColorDialog(self)
-        self.colorDialog.show()
+        # self.colorDialog = QColorDialog(self)
+        # self.colorDialog.show()
 
-        # self.close()
+        self.close()
 
     def closeEvent(self, _):
         Inventories.close_inventory(self.inventory)
