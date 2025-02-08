@@ -6,8 +6,9 @@ from src.inventory import Inventory
 
 COLUMNS = ["Date", *COLUMNS]
 
-naira = '₦'
-naira = '$'
+naira = "₦"
+naira = "$"
+
 
 def inventory_to_excel(file: str) -> str:
     dirname = os.path.dirname(file)
@@ -120,6 +121,14 @@ def inventory_to_excel(file: str) -> str:
             font_color="#ffffff",
         )
     )
+    blue_naira_format = workbook.add_format(
+        dict(
+            num_format=f"{naira} #,##0.00",
+            bg_color="blue",
+            has_fill=True,
+            font_color="#ffffff",
+        )
+    )
     darkRed_naira_format = workbook.add_format(
         dict(
             num_format=f"{naira} #,##0.00",
@@ -139,6 +148,7 @@ def inventory_to_excel(file: str) -> str:
         red_naira_format,
         green_naira_format,
         purple_naira_format,
+        blue_naira_format,
         darkRed_naira_format,
     ]
 
@@ -149,7 +159,7 @@ def inventory_to_excel(file: str) -> str:
         format.set_align("vcenter")
         format.set_font_color("white")
 
-    worksheet.merge_range(0, 0, 1, 5, f'{dt} | {inventory.name}', title_format)
+    worksheet.merge_range(0, 0, 1, 5, f"{dt} | {inventory.name}", title_format)
 
     for index, header in enumerate(COLUMNS):
         worksheet.write(2, index, header, header_format)
@@ -182,7 +192,14 @@ def inventory_to_excel(file: str) -> str:
                 row, 3, price, red_naira_format if price < 0 else naira_format
             )
             worksheet.write(
-                row, 4, amount, red_naira_format if amount < 0 else naira_format
+                row,
+                4,
+                amount,
+                (
+                    red_naira_format
+                    if amount < 0
+                    else blue_naira_format if amount > 1 * 10e4 else naira_format
+                ),
             )
 
             worksheet.write(

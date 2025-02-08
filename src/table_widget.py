@@ -135,6 +135,7 @@ class TableWidget(QTableWidget):
 
         # set amount uneditable
         for row in range(rowCount):
+            inventory_item = self.inventory.item(row)
             values = self.inventory.item_values(row, flow)
 
             for column, value in enumerate(values):
@@ -166,8 +167,10 @@ class TableWidget(QTableWidget):
                     elif len(values[0]) > 80:
                         table_item.setSizeHint(QSize(450, 60))
 
-                    if value and (values[2].startswith("-") and column in [0, 2, 3]) or (
-                        flow < 0 and column == lastColumn
+                    if (
+                        value
+                        and (values[2].startswith("-") and column in [0, 2, 3])
+                        or (flow < 0 and column == lastColumn)
                     ):
                         table_item.setBackground(Qt.GlobalColor.red)
                         table_item.setForeground(Qt.GlobalColor.white)
@@ -187,6 +190,14 @@ class TableWidget(QTableWidget):
 
                     if column >= amountColumn:
                         table_item.setFlags(Qt.ItemFlag.ItemIsEnabled)
+
+                        if (
+                            inventory_item
+                            and column == amountColumn
+                            and inventory_item.amount > 1 * 10e4
+                        ):
+                            table_item.setBackground(Qt.GlobalColor.blue)
+                            table_item.setForeground(Qt.GlobalColor.white)
 
                     if "___" in values[0]:
                         table_item.setBackground(Qt.GlobalColor.darkBlue)
