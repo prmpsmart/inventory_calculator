@@ -176,7 +176,7 @@ class TableWidget(QTableWidget):
                         table_item.setForeground(Qt.GlobalColor.white)
 
                     if column == lastColumn and value:
-                        if 0 < flow < 100 * 10e2:
+                        if 0 < flow < 300 * 10e2:
                             table_item.setBackground(Qt.GlobalColor.darkRed)
                             table_item.setForeground(Qt.GlobalColor.white)
 
