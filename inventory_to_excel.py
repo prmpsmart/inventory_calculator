@@ -258,6 +258,7 @@ def print_excel_to_pdf(excel_file_path: str) -> str:
 
 
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\cash_flow_2025.json"
+json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow.json"
 excel_file = inventory_to_excel(json_file)
 pdf_file = print_excel_to_pdf(excel_file)
 

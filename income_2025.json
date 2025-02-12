@@ -4,27 +4,32 @@
     {
       "name": "NYSC",
       "count": 11,
-      "price": 33000.0
+      "price": 33000.0,
+      "number": 0
     },
     {
       "name": "Truck and Wheels",
       "count": 11,
-      "price": 70000.0
+      "price": 70000.0,
+      "number": 1
     },
     {
       "name": "DINATEN",
       "count": 12,
-      "price": 800000.0
+      "price": 800000.0,
+      "number": 2
     },
     {
       "name": "AGAM Loan Repayment",
       "count": 10,
-      "price": 90000.0
+      "price": 90000.0,
+      "number": 3
     },
     {
       "name": "Expenses",
       "count": 12,
-      "price": -90000.0
+      "price": -90000.0,
+      "number": 4
     }
   ]
 }
