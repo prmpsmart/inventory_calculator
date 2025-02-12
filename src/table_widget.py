@@ -176,11 +176,11 @@ class TableWidget(QTableWidget):
                         table_item.setForeground(Qt.GlobalColor.white)
 
                     if column == lastColumn and value:
-                        if 0 < flow < 300 * 10e2:
+                        if 0 < flow <= 300 * 10e2:
                             table_item.setBackground(Qt.GlobalColor.darkRed)
                             table_item.setForeground(Qt.GlobalColor.white)
 
-                        elif flow > 100 * 10e3:
+                        elif flow >= 100 * 10e3:
                             table_item.setBackground(Qt.GlobalColor.darkMagenta)
                             table_item.setForeground(Qt.GlobalColor.white)
 
@@ -191,13 +191,13 @@ class TableWidget(QTableWidget):
                     if column >= amountColumn:
                         table_item.setFlags(Qt.ItemFlag.ItemIsEnabled)
 
-                        if (
-                            inventory_item
-                            and column == amountColumn
-                            and inventory_item.amount > 1 * 10e4
-                        ):
-                            table_item.setBackground(Qt.GlobalColor.blue)
-                            table_item.setForeground(Qt.GlobalColor.white)
+                        if inventory_item and column == amountColumn:
+                            if inventory_item.amount >= 1 * 10e4:
+                                table_item.setBackground(Qt.GlobalColor.blue)
+                                table_item.setForeground(Qt.GlobalColor.white)
+                            elif inventory_item.amount <= -1 * 10e4:
+                                table_item.setBackground(Qt.GlobalColor.darkRed)
+                                table_item.setForeground(Qt.GlobalColor.white)
 
                     if "___" in values[0]:
                         table_item.setBackground(Qt.GlobalColor.darkBlue)

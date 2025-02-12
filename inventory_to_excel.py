@@ -196,9 +196,13 @@ def inventory_to_excel(file: str) -> str:
                 4,
                 amount,
                 (
-                    red_naira_format
-                    if amount < 0
-                    else blue_naira_format if amount > 1 * 10e4 else naira_format
+                    darkRed_naira_format
+                    if amount <= -1 * 10e4
+                    else (
+                        red_naira_format
+                        if amount < 0
+                        else (blue_naira_format if amount > 1 * 10e4 else naira_format)
+                    )
                 ),
             )
 
@@ -214,7 +218,7 @@ def inventory_to_excel(file: str) -> str:
                         if flow > 100 * 10e3
                         else (
                             darkRed_naira_format
-                            if 0 < flow < 100 * 10e2
+                            if 0 < flow <= 100 * 10e2
                             else naira_format
                         )
                     )
