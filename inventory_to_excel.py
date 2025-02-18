@@ -6,8 +6,8 @@ from src.inventory import Inventory
 
 COLUMNS = ["Date", *COLUMNS]
 
-naira = "₦"
 naira = "$"
+naira = "₦"
 
 
 def inventory_to_excel(file: str) -> str:
