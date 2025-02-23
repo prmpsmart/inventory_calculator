@@ -180,7 +180,10 @@ def inventory_to_excel(file: str) -> str:
             )
 
         else:
-            date, name = item.name.split(" - ", 1)
+            date_name = item.name.split(" - ", 1)
+            if len(date_name) == 1:
+                date_name.insert(0, "")
+            date, name = date_name
             count = item.count
             price = item.price
             amount = item.amount
