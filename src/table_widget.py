@@ -159,6 +159,7 @@ class TableWidget(QTableWidget):
 
                 if table_item:
                     table_item.setText(value)
+                    table_item.setTextAlignment(Qt.AlignmentFlag.AlignLeft)
                     if column == 1 or "___" in values[0]:
                         table_item.setTextAlignment(Qt.AlignmentFlag.AlignCenter)
 
