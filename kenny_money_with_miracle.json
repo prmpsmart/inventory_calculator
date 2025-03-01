@@ -110,310 +110,328 @@
       "number": 17
     },
     {
+      "name": "18/04/2025 - Loan to Miracle for macbook",
+      "count": 1,
+      "price": 1000000.0,
+      "number": 18
+    },
+    {
       "name": "28/04/2025 - Interest on 700k for emergency loan",
       "count": 1,
       "price": 21000.0,
-      "number": 18
+      "number": 19
     },
     {
       "name": "28/04/2025 - Withdraw Interest on 700k for emergency loan",
       "count": 1,
       "price": -21000.0,
-      "number": 19
+      "number": 20
     },
     {
       "name": "28/04/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 20
+      "number": 21
     },
     {
       "name": "28/04/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 21
+      "number": 22
     },
     {
       "name": "28/04/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 22
+      "number": 23
     },
     {
       "name": "________________     MAY    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 23
+      "number": 24
     },
     {
       "name": "03/05/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 24
+      "number": 25
+    },
+    {
+      "name": "18/05/2025 - Repayment on loan to Miracle for macbook",
+      "count": 1,
+      "price": -500000.0,
+      "number": 26
     },
     {
       "name": "28/05/2025 - Interest on 700k for emergency loan",
       "count": 1,
       "price": 21000.0,
-      "number": 25
+      "number": 27
     },
     {
       "name": "28/05/2025 - Withdraw Interest on 700k for emergency loan",
       "count": 1,
       "price": -21000.0,
-      "number": 26
+      "number": 28
     },
     {
       "name": "28/05/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 27
+      "number": 29
     },
     {
       "name": "28/05/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 28
+      "number": 30
     },
     {
       "name": "28/05/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 29
+      "number": 31
     },
     {
       "name": "________________     JUNE    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 30
+      "number": 32
     },
     {
       "name": "03/06/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 31
+      "number": 33
+    },
+    {
+      "name": "18/06/2025 - Repayment on loan to Miracle for macbook",
+      "count": 1,
+      "price": -500000.0,
+      "number": 34
     },
     {
       "name": "28/06/2025 - Interest on 700k for emergency loan",
       "count": 1,
       "price": 21000.0,
-      "number": 32
+      "number": 35
     },
     {
       "name": "28/06/2025 - Withdraw Interest on 700k for emergency loan",
       "count": 1,
       "price": -21000.0,
-      "number": 33
+      "number": 36
     },
     {
       "name": "28/06/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 34
+      "number": 37
     },
     {
       "name": "28/06/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 35
+      "number": 38
     },
     {
       "name": "28/06/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 36
+      "number": 39
     },
     {
       "name": "________________     JULY    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 37
+      "number": 40
     },
     {
       "name": "03/07/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 38
+      "number": 41
     },
     {
       "name": "28/07/2025 - Interest on 700k for emergency loan",
       "count": 1,
       "price": 21000.0,
-      "number": 39
+      "number": 42
     },
     {
       "name": "28/07/2025 - Withdraw of 700k for emergency loan",
       "count": 1,
       "price": -700000.0,
-      "number": 40
+      "number": 43
     },
     {
       "name": "28/07/2025 - Withdraw Interest on 700k for emergency loan",
       "count": 1,
       "price": -21000.0,
-      "number": 41
+      "number": 44
     },
     {
       "name": "28/07/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 42
+      "number": 45
     },
     {
       "name": "28/07/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 43
+      "number": 46
     },
     {
       "name": "28/07/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 44
+      "number": 47
     },
     {
       "name": "________________     AUGUST    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 45
+      "number": 48
     },
     {
       "name": "03/08/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 46
+      "number": 49
     },
     {
       "name": "28/08/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 47
+      "number": 50
     },
     {
       "name": "28/08/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 48
+      "number": 51
     },
     {
       "name": "28/08/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 49
+      "number": 52
     },
     {
       "name": "________________     SEPTEMBER    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 50
+      "number": 53
     },
     {
       "name": "03/09/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 51
+      "number": 54
     },
     {
       "name": "28/09/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 52
+      "number": 55
     },
     {
       "name": "28/09/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 53
+      "number": 56
     },
     {
       "name": "28/09/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 54
+      "number": 57
     },
     {
       "name": "________________     OCTOBER    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 55
+      "number": 58
     },
     {
       "name": "03/10/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 56
+      "number": 59
     },
     {
       "name": "28/10/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 57
+      "number": 60
     },
     {
       "name": "28/10/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 58
+      "number": 61
     },
     {
       "name": "28/10/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 59
+      "number": 62
     },
     {
       "name": "________________     NOVEMBER    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 60
+      "number": 63
     },
     {
       "name": "03/11/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 61
+      "number": 64
     },
     {
       "name": "28/11/2025 - Interest on 1.6m cooperative loan",
       "count": 1,
       "price": 8000.0,
-      "number": 62
+      "number": 65
     },
     {
       "name": "28/11/2025 - Withdraw of Interest on 1.6m cooperative loan",
       "count": 1,
       "price": -8000.0,
-      "number": 63
+      "number": 66
     },
     {
       "name": "28/11/2025 - Withdraw from 1.6m for cooperative loan",
       "count": 1,
       "price": -160000.0,
-      "number": 64
+      "number": 67
     },
     {
       "name": "________________     DECEMBER    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 65
+      "number": 68
     },
     {
       "name": "03/12/2025 - Interest on 500k for upfront loan",
       "count": 1,
       "price": 25000.0,
-      "number": 66
+      "number": 69
     },
     {
       "name": "03/12/2025 - Withdraw Interest on 500k for upfront loan",
       "count": 10,
       "price": -25000.0,
-      "number": 67
+      "number": 70
     },
     {
       "name": "03/12/2025 - Withdraw of 500k for upfront loan",
       "count": 1,
       "price": -500000.0,
-      "number": 68
+      "number": 71
     }
   ]
 }
