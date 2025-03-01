@@ -4,7 +4,7 @@ import xlsxwriter.worksheet
 from src.commons import COLUMNS
 from src.inventory import Inventory
 
-COLUMNS = ["Date", *COLUMNS]
+COLUMNS = ["S/N", "Date", *COLUMNS]
 
 naira = "$"
 naira = "₦"
@@ -26,10 +26,11 @@ def inventory_to_excel(file: str) -> str:
     workbook = xlsxwriter.Workbook(path)
     worksheet = workbook.add_worksheet("Inventory")
 
-    worksheet.set_column("A:A", 10)
-    worksheet.set_column("B:B", 33.57)
-    worksheet.set_column("C:C", 6)
-    worksheet.set_column("D:F", 15)
+    worksheet.set_column("A:A", 5)
+    worksheet.set_column("B:B", 10)
+    worksheet.set_column("C:C", 33.57)
+    worksheet.set_column("D:D", 6)
+    worksheet.set_column("E:G", 15)
     if m := 0.25:
         worksheet.set_margins(m, m, m, m)
     worksheet.set_paper(9)
@@ -60,6 +61,11 @@ def inventory_to_excel(file: str) -> str:
             font_color="#ffffff",
             bold=True,
             align="center",
+        )
+    )
+    sn_format = workbook.add_format(
+        dict(
+            align='center'
         )
     )
     date_format = workbook.add_format(
@@ -159,12 +165,13 @@ def inventory_to_excel(file: str) -> str:
         format.set_align("vcenter")
         format.set_font_color("white")
 
-    worksheet.merge_range(0, 0, 1, 5, f"{dt} | {inventory.name}", title_format)
+    worksheet.merge_range(0, 0, 1, 6, inventory.name, title_format)
 
     for index, header in enumerate(COLUMNS):
         worksheet.write(2, index, header, header_format)
 
     flow = 0
+    number = 0
     for row, item in enumerate(inventory.items):
         flow += item.amount
         row += 3
@@ -174,12 +181,13 @@ def inventory_to_excel(file: str) -> str:
                 row,
                 0,
                 row,
-                5,
+                6,
                 item.name,
                 section_header_format,
             )
 
         else:
+            number += 1
             date_name = item.name.split(" - ", 1)
             if len(date_name) == 1:
                 date_name.insert(0, "")
@@ -188,15 +196,16 @@ def inventory_to_excel(file: str) -> str:
             price = item.price
             amount = item.amount
 
-            worksheet.write(row, 0, date, date_format)
-            worksheet.write(row, 1, name, red_name_format if price < 0 else name_format)
-            worksheet.write(row, 2, count, count_format)
+            worksheet.write(row, 0, number, sn_format)
+            worksheet.write(row, 1, date, date_format)
+            worksheet.write(row, 2, name, red_name_format if price < 0 else name_format)
+            worksheet.write(row, 3, count, count_format)
             worksheet.write(
-                row, 3, price, red_naira_format if price < 0 else naira_format
+                row, 4, price, red_naira_format if price < 0 else naira_format
             )
             worksheet.write(
                 row,
-                4,
+                5,
                 amount,
                 (
                     darkRed_naira_format
@@ -211,7 +220,7 @@ def inventory_to_excel(file: str) -> str:
 
             worksheet.write(
                 row,
-                5,
+                6,
                 flow,
                 (
                     green_naira_format
@@ -266,8 +275,10 @@ def print_excel_to_pdf(excel_file_path: str) -> str:
 
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\cash_flow_2025.json"
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow.json"
-excel_file = inventory_to_excel(json_file)
-pdf_file = print_excel_to_pdf(excel_file)
+json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\kenny_money_with_miracle.json"
 
+excel_file = inventory_to_excel(json_file)
 # os.system(excel_file)
+
+pdf_file = print_excel_to_pdf(excel_file)
 # os.system(pdf_file)
