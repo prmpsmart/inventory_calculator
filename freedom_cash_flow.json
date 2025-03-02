@@ -332,39 +332,39 @@
       "number": 54
     },
     {
-      "name": "28/02/2025 - Mom's loan - (Iyabo 100)",
-      "count": 1,
-      "price": -100000.0,
-      "number": 55
-    },
-    {
-      "name": "28/03/2025 - Pay part of Kenny's 700k to her, remains 500k",
-      "count": 1,
-      "price": -200000.0,
-      "number": 56
-    },
-    {
       "name": "________________     APRIL    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 57
+      "number": 55
     },
     {
       "name": "18/04/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
+      "number": 56
+    },
+    {
+      "name": "18/04/2025 - Borrow 1.5m from Kenny to buy macbook",
+      "count": 1,
+      "price": 1500000.0,
+      "number": 57
+    },
+    {
+      "name": "Buy Brand New MacBook M2 (Pro) 14\" 16GB 512GB (1TB)",
+      "count": 1,
+      "price": -2500000.0,
       "number": 58
     },
     {
-      "name": "18/04/2025 - Borrow 1m from Kenny to buy macbook",
+      "name": "Buy Brand New iPhone 14 Pro Max 512GB",
       "count": 1,
-      "price": 1000000.0,
+      "price": -1500000.0,
       "number": 59
     },
     {
-      "name": "Buy MacBook M3 Pro 16\" 36GB 512GB",
+      "name": "Buy Oraimo PowerJet 130 (130W ULTRA FAST Power Bank)",
       "count": 1,
-      "price": -2500000.0,
+      "price": -150000.0,
       "number": 60
     },
     {
@@ -377,124 +377,160 @@
       "name": "30/04/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
-      "number": 64
+      "number": 62
     },
     {
       "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
       "count": 1,
       "price": -168000.0,
-      "number": 65
+      "number": 63
     },
     {
       "name": "30/04/2025 - Allowance from NYSC",
       "count": 1,
       "price": 33000.0,
-      "number": 66
+      "number": 64
     },
     {
       "name": "30/04/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 67
-    },
-    {
-      "name": "Mom's loan - (Hon 200, Iyabo 100)",
-      "count": 1,
-      "price": -300000.0,
-      "number": 68
-    },
-    {
-      "name": "28/03/2025 - Pay part of Kenny's 700k to her, remains 300k",
-      "count": 1,
-      "price": -200000.0,
-      "number": 69
+      "number": 65
     },
     {
       "name": "________________     MAY    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 70
+      "number": 66
     },
     {
       "name": "20/05/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 71
+      "number": 67
     },
     {
-      "name": "20/05/2025 - Repay borrowed 1m from Kenny to buy macbook",
-      "count": 1,
+      "name": "20/05/2025 - Repay borrowed 1.5m from Kenny",
+      "count": 2,
       "price": -500000.0,
-      "number": 72
+      "number": 68
     },
     {
       "name": "31/05/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0,
-      "number": 73
+      "number": 69
     },
     {
       "name": "31/05/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
-      "number": 76
+      "number": 70
     },
     {
       "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
       "count": 1,
       "price": -168000.0,
-      "number": 77
+      "number": 71
     },
     {
       "name": "31/05/2025 - Allowance from NYSC",
       "count": 1,
       "price": 33000.0,
-      "number": 78
+      "number": 72
     },
     {
       "name": "31/05/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 79
-    },
-    {
-      "name": "Mom's loan - (Hon 400)",
-      "count": 1,
-      "price": -400000.0,
-      "number": 80
-    },
-    {
-      "name": "28/03/2025 - Pay part of Kenny's 700k to her, remains 0",
-      "count": 1,
-      "price": -300000.0,
-      "number": 81
+      "number": 73
     },
     {
       "name": "________________     JUNE    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 82
+      "number": 74
     },
     {
       "name": "20/06/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 83
+      "number": 75
     },
     {
-      "name": "20/06/2025 - Repay borrowed 1m from Kenny to buy macbook",
+      "name": "20/06/2025 - Repay borrowed 1.5m from Kenny",
       "count": 1,
       "price": -500000.0,
-      "number": 84
+      "number": 76
     },
     {
       "name": "30/06/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0,
-      "number": 85
+      "number": 77
     },
     {
       "name": "30/06/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0,
+      "number": 78
+    },
+    {
+      "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0,
+      "number": 79
+    },
+    {
+      "name": "30/06/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0,
+      "number": 80
+    },
+    {
+      "name": "30/06/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0,
+      "number": 81
+    },
+    {
+      "name": "Mom's loan - (Iyabo 200k)",
+      "count": 2,
+      "price": -100000.0,
+      "number": 82
+    },
+    {
+      "name": "Mom's loan - (Honorable 600k)",
+      "count": 1,
+      "price": -300000.0,
+      "number": 83
+    },
+    {
+      "name": "________________     JULY   _________________",
+      "count": 0,
+      "price": 0.0,
+      "number": 84
+    },
+    {
+      "name": "20/07/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 700000.0,
+      "number": 85
+    },
+    {
+      "name": "31/07/2025 - Allowance from NYSC",
+      "count": 1,
+      "price": 33000.0,
+      "number": 86
+    },
+    {
+      "name": "31/07/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0,
+      "number": 87
+    },
+    {
+      "name": "31/07/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
       "number": 88
@@ -506,49 +542,49 @@
       "number": 89
     },
     {
-      "name": "30/06/2025 - Allowance from NYSC",
+      "name": "Mom's loan - (Arowolo 1m)",
       "count": 1,
-      "price": 33000.0,
+      "price": -500000.0,
       "number": 90
     },
     {
-      "name": "30/06/2025 - Salary from Truck and Wheels",
+      "name": "Mom's loan - (Honorable 300k)",
       "count": 1,
-      "price": 70000.0,
+      "price": -300000.0,
       "number": 91
     },
     {
-      "name": "Mom's loan - (Arowolo 500)",
-      "count": 1,
-      "price": -500000.0,
+      "name": "________________     AUGUST   _________________",
+      "count": 0,
+      "price": 0.0,
       "number": 92
     },
     {
-      "name": "________________     JULY   _________________",
-      "count": 0,
-      "price": 0.0,
+      "name": "20/08/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 700000.0,
       "number": 93
     },
     {
-      "name": "20/07/2025 - Salary from DINATEN",
+      "name": "31/08/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
-      "price": 700000.0,
+      "price": 90000.0,
       "number": 94
     },
     {
-      "name": "31/07/2025 - Allowance from NYSC",
+      "name": "31/08/2025 - Allowance from NYSC",
       "count": 1,
       "price": 33000.0,
       "number": 95
     },
     {
-      "name": "31/07/2025 - Salary from Truck and Wheels",
+      "name": "31/08/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
       "number": 96
     },
     {
-      "name": "31/07/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "name": "31/08/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
       "number": 97
@@ -560,115 +596,115 @@
       "number": 98
     },
     {
-      "name": "Mom's loan - (Arowolo 500)",
+      "name": "Mom's loan - (Arowolo 500k)",
       "count": 1,
       "price": -500000.0,
       "number": 99
     },
     {
-      "name": "________________     AUGUST   _________________",
+      "name": "________________     SEPTEMBER   _________________",
       "count": 0,
       "price": 0.0,
       "number": 100
     },
     {
-      "name": "20/08/2025 - Salary from DINATEN",
-      "count": 1,
-      "price": 200000.0,
-      "number": 101
-    },
-    {
-      "name": "31/08/2025 - AGAM pays repayment on 900k from Miracle",
-      "count": 1,
-      "price": 90000.0,
-      "number": 102
-    },
-    {
-      "name": "31/08/2025 - Allowance from NYSC",
-      "count": 1,
-      "price": 33000.0,
-      "number": 103
-    },
-    {
-      "name": "31/08/2025 - Salary from Truck and Wheels",
-      "count": 1,
-      "price": 70000.0,
-      "number": 104
-    },
-    {
-      "name": "31/08/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
-      "count": 1,
-      "price": 168000.0,
-      "number": 105
-    },
-    {
-      "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
-      "count": 1,
-      "price": -168000.0,
-      "number": 106
-    },
-    {
-      "name": "________________     SEPTEMBER   _________________",
-      "count": 0,
-      "price": 0.0,
-      "number": 107
-    },
-    {
       "name": "20/09/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 200000.0,
-      "number": 108
+      "price": 700000.0,
+      "number": 101
     },
     {
       "name": "30/09/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0,
-      "number": 109
+      "number": 102
     },
     {
       "name": "30/09/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
-      "number": 110
+      "number": 103
     },
     {
       "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
       "count": 1,
       "price": -168000.0,
-      "number": 111
+      "number": 104
     },
     {
       "name": "30/09/2025 - Allowance from NYSC",
       "count": 1,
       "price": 33000.0,
-      "number": 112
+      "number": 105
     },
     {
       "name": "30/09/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 113
+      "number": 106
+    },
+    {
+      "name": "Mom's loan - (Kenny 700k)",
+      "count": 2,
+      "price": -350000.0,
+      "number": 107
     },
     {
       "name": "________________     OCTOBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 114
+      "number": 108
     },
     {
       "name": "20/10/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 200000.0,
-      "number": 115
+      "price": 700000.0,
+      "number": 109
     },
     {
       "name": "31/10/2025 - AGAM pays repayment on 900k from Miracle",
       "count": 1,
       "price": 90000.0,
-      "number": 116
+      "number": 110
     },
     {
       "name": "31/10/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
+      "count": 1,
+      "price": 168000.0,
+      "number": 111
+    },
+    {
+      "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
+      "count": 1,
+      "price": -168000.0,
+      "number": 112
+    },
+    {
+      "name": "31/10/2025 - Allowance from NYSC",
+      "count": 2,
+      "price": 33000.0,
+      "number": 113
+    },
+    {
+      "name": "31/10/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0,
+      "number": 114
+    },
+    {
+      "name": "________________     NOVEMBER   _________________",
+      "count": 0,
+      "price": 0.0,
+      "number": 115
+    },
+    {
+      "name": "20/11/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 700000.0,
+      "number": 116
+    },
+    {
+      "name": "30/11/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
       "count": 1,
       "price": 168000.0,
       "number": 117
@@ -680,88 +716,40 @@
       "number": 118
     },
     {
-      "name": "31/10/2025 - Allowance from NYSC",
-      "count": 2,
-      "price": 33000.0,
-      "number": 119
-    },
-    {
-      "name": "31/10/2025 - Salary from Truck and Wheels",
-      "count": 1,
-      "price": 70000.0,
-      "number": 120
-    },
-    {
-      "name": "________________     NOVEMBER   _________________",
-      "count": 0,
-      "price": 0.0,
-      "number": 121
-    },
-    {
-      "name": "20/11/2025 - Salary from DINATEN",
-      "count": 1,
-      "price": 200000.0,
-      "number": 122
-    },
-    {
-      "name": "30/11/2025 - AGAM pays repayment on 1.6m Loan from Kenny",
-      "count": 1,
-      "price": 168000.0,
-      "number": 123
-    },
-    {
-      "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
-      "count": 1,
-      "price": -168000.0,
-      "number": 124
-    },
-    {
       "name": "30/11/2025 - Sell palm oil",
       "count": 1,
       "price": 1000000.0,
-      "number": 125
+      "number": 119
     },
     {
       "name": "________________     DECEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 126
+      "number": 120
     },
     {
       "name": "14/12/2025 - Pay Kenny contribution",
       "count": 1,
       "price": -130000,
-      "number": 127
-    },
-    {
-      "name": "15/12/2025 - Purchase small comfortable bed",
-      "count": 1,
-      "price": -100000.0,
-      "number": 128
+      "number": 121
     },
     {
       "name": "20/12/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 200000.0,
-      "number": 129
+      "price": 700000.0,
+      "number": 122
     },
     {
       "name": "21/08/2025 - Pay Kenny's 500k investment on upfront loan to her",
       "count": 1,
       "price": -500000.0,
-      "number": 130
+      "number": 123
     },
     {
       "name": "21/08/2025 - Pay Kenny's interest on 500k investment on upfront loan to her",
       "count": 1,
       "price": -25000.0,
-      "number": 131
-    },
-    {
-      "name": "30/13/2025 - 500k Savings from DINATEN from March to December",
-      "count": 5,
-      "price": 500000.0,
-      "number": 132
+      "number": 124
     }
   ]
 }
