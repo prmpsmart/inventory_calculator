@@ -267,8 +267,8 @@ def print_excel_to_pdf(excel_file_path: str) -> str:
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\cash_flow_2025.json"
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow.json"
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\kenny_money_with_miracle.json"
-json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow_oscofed2.json"
 json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow_oscofed.json"
+json_file = r"C:\Users\USER\Desktop\Workspace\PRMPSmart\inventory_calculator\freedom_cash_flow_oscofed2.json"
 
 excel_file = inventory_to_excel(json_file)
 # os.system(excel_file)
