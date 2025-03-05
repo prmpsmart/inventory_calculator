@@ -26,6 +26,7 @@ def table(datas: list[tuple[str, int]]):
 
 months = 10
 loan7 = 700_000
+loan7 = 0
 mloan7 = loan7 / months
 loan9 = 900_000
 mloan9 = loan9 / months
@@ -38,7 +39,7 @@ loans = loan7 + loan9 + loan16
 log(f"Total loans from Miracle", loans)
 table(
     [
-        ("Emergency loan", loan7),
+        ("Emergency loan (700k)", loan7),
         ("Cooperative loan", loan9),
         ("Cooperative loan", loan16),
     ]
@@ -95,8 +96,13 @@ def plan(id: int, target: int):
     print()
 
     actual_loan_repay = oscofed - pump
+    actual_loan_repay_text = f" ({money(oscofed)} - {money(pump)})"
+    if id == 2:
+        actual_loan_repay = loan9
+        actual_loan_repay = 1_000_000
+        actual_loan_repay_text = ''
     log(
-        f"4. Actual loan repaid to Miracle using the OSCOFED loan ({money(oscofed)} - {money(pump)})",
+        f"4. Actual loan repaid to Miracle using the OSCOFED loan{actual_loan_repay_text}",
         actual_loan_repay,
     )
 
@@ -131,5 +137,5 @@ def plan(id: int, target: int):
     )
 
 
-plan(1, 1_000_000)
+# plan(1, 1_000_000)
 plan(2, 1_500_000)
