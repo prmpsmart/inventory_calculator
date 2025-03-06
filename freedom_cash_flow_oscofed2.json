@@ -476,51 +476,51 @@
       "number": 78
     },
     {
-      "name": "Mom's loan - (Arowolo 500)",
-      "count": 0,
-      "price": -500000.0,
-      "number": 79
-    },
-    {
       "name": "________________     MAY    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 80
+      "number": 79
     },
     {
       "name": "20/05/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 81
+      "number": 80
     },
     {
       "name": "20/05/2025 - Repay borrowed money from Kenny",
       "count": 2,
       "price": -500000.0,
-      "number": 82
+      "number": 81
     },
     {
       "name": "31/05/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 83
+      "number": 82
     },
     {
       "name": "07/02/2025 - Send received repayment on 1.6m Loan to Kenny",
       "count": 1,
       "price": -168000.0,
-      "number": 84
+      "number": 83
     },
     {
       "name": "31/05/2025 - Allowance from NYSC",
       "count": 1,
       "price": 33000.0,
-      "number": 85
+      "number": 84
     },
     {
       "name": "31/05/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
+      "number": 85
+    },
+    {
+      "name": "Mom's loan - (Arowolo 500)",
+      "count": 1,
+      "price": -500000.0,
       "number": 86
     },
     {
@@ -567,7 +567,7 @@
     },
     {
       "name": "Mom's loan - (Honorable 100)",
-      "count": 0,
+      "count": 1,
       "price": -100000.0,
       "number": 94
     },
