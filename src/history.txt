@@ -1,3 +1,4 @@
+C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/selfish_cash_flow.json
 C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow_oscofed2.json
 C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow_oscofed.json
 C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow.json
