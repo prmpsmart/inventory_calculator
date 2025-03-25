@@ -488,15 +488,15 @@
       "number": 80
     },
     {
-      "name": "Borrow Kenny money",
+      "name": "25/03/2025 - Salary from Truck and Wheels \u2705",
       "count": 1,
-      "price": -100000.0,
+      "price": 70000.0,
       "number": 81
     },
     {
-      "name": "24/03/2025 - Mom repays part 1.2m upfront loan from Miracle",
+      "name": "Borrow Kenny money",
       "count": 1,
-      "price": 30000.0,
+      "price": -100000.0,
       "number": 82
     },
     {
@@ -506,13 +506,13 @@
       "number": 83
     },
     {
-      "name": "25/03/2025 - 2 Plots of land",
+      "name": "31/03/2025 - Mom repays part 1.2m upfront loan from Miracle",
       "count": 1,
-      "price": -500000.0,
+      "price": 30000.0,
       "number": 84
     },
     {
-      "name": "28/03/2025 - Mom repays part 1.2m upfront loan from Miracle",
+      "name": "31/03/2025 - Mom repays part 1.2m upfront loan from Miracle",
       "count": 1,
       "price": 300000.0,
       "number": 85
@@ -548,21 +548,21 @@
       "number": 90
     },
     {
-      "name": "31/03/2025 - Salary from Truck and Wheels",
-      "count": 1,
-      "price": 70000.0,
-      "number": 91
-    },
-    {
       "name": "31/03/2025 - Zent balance payment",
       "count": 2,
       "price": 100000.0,
-      "number": 92
+      "number": 91
     },
     {
       "name": "31/03/2025 - Repay by Kenny",
       "count": 1,
       "price": 300000.0,
+      "number": 92
+    },
+    {
+      "name": "31/03/2025 - 2 Plots of land",
+      "count": 1,
+      "price": -500000.0,
       "number": 93
     },
     {
