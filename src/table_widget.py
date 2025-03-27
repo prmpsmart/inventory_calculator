@@ -37,6 +37,23 @@ class TableWidget(QTableWidget):
         self.updateItems()
 
     def onItemChanged(self, item: QTableWidgetItem):
+        """
+        Handles the event when an item in the QTableWidget is changed.
+
+        This method is triggered whenever a cell in the table is modified. It updates
+        the corresponding inventory item based on the changes made in the table.
+
+        Args:
+            item (QTableWidgetItem): The table widget item that was changed.
+
+        Behavior:
+            - Retrieves the row and column of the changed item.
+            - Maps the column to its corresponding name, type, and default null value.
+            - Processes the new value entered in the cell, converting it to the appropriate type.
+            - Updates or creates an inventory item corresponding to the row.
+            - Removes the inventory item if it is empty.
+            - Updates the table items if certain conditions are met.
+        """
         row = item.row()
         column = item.column()
 
