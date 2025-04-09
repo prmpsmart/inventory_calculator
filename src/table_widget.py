@@ -198,7 +198,7 @@ class TableWidget(QTableWidget):
                             table_item.setBackground(Qt.GlobalColor.darkRed)
                             table_item.setForeground(Qt.GlobalColor.white)
 
-                        elif flow >= 100 * 10e3:
+                        elif flow >= 140 * 10e3:
                             table_item.setBackground(Qt.GlobalColor.darkMagenta)
                             table_item.setForeground(Qt.GlobalColor.white)
 
