@@ -698,15 +698,15 @@
       "number": 115
     },
     {
-      "name": "17/04/2025 - Mom repays part",
+      "name": "15/04/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 500000.0,
+      "price": 830000.0,
       "number": 116
     },
     {
-      "name": "18/04/2025 - Salary from DINATEN",
+      "name": "17/04/2025 - Mom repays part",
       "count": 1,
-      "price": 830000.0,
+      "price": 500000.0,
       "number": 117
     },
     {
@@ -830,8 +830,8 @@
       "number": 137
     },
     {
-      "name": "Miracle's 500k for Upfront",
-      "count": 1,
+      "name": "Miracle's 1m for Upfront",
+      "count": 2,
       "price": -500000.0,
       "number": 138
     },
@@ -1190,8 +1190,8 @@
       "number": 197
     },
     {
-      "name": "Miracle's 500k for Upfront",
-      "count": 1,
+      "name": "Miracle's 1m for Upfront",
+      "count": 2,
       "price": 500000.0,
       "number": 198
     },
