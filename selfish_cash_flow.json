@@ -1293,13 +1293,13 @@
     },
     {
       "name": "Pay Kenny's interest on 500k investment on upfront loan to her",
-      "count": 2,
+      "count": 10,
       "price": -25000.0,
       "number": 215
     },
     {
       "name": "Pay Kenny's interest on 1m investment on upfront loan to her",
-      "count": 1,
+      "count": 9,
       "price": -50000.0,
       "number": 216
     },
@@ -1326,12 +1326,6 @@
       "count": 0,
       "price": -1800000.0,
       "number": 220
-    },
-    {
-      "name": "Kenny's total money is 2,664,000",
-      "count": 0,
-      "price": 0.0,
-      "number": 221
     }
   ]
 }
