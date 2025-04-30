@@ -794,538 +794,562 @@
       "number": 131
     },
     {
+      "name": "30/04/2025 - Palmoil 10 kegs",
+      "count": 1,
+      "price": -500000.0,
+      "number": 132
+    },
+    {
       "name": "30/04/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 132
+      "number": 133
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 133
+      "number": 134
     },
     {
       "name": "Gameliel consult backend - JodnaTechnologies",
       "count": 1,
       "price": 20000.0,
-      "number": 134
+      "number": 135
     },
     {
       "name": "11/03/2025 - Repay Kenny Shoprite (20k), feeding (10k)",
       "count": 1,
       "price": -30000.0,
-      "number": 135
+      "number": 136
     },
     {
       "name": "________________     MAY    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 136
+      "number": 137
     },
     {
       "name": "Kenny's 1.5m for Upfront",
-      "count": 1,
-      "price": -1500000.0,
-      "number": 137
+      "count": 2,
+      "price": -500000.0,
+      "number": 138
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 138
+      "number": 139
     },
     {
       "name": "20/05/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 139
+      "number": 140
     },
     {
       "name": "28/05/2025 - Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 140
+      "number": 141
     },
     {
       "name": "31/05/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 141
+      "number": 142
     },
     {
       "name": "31/05/2025 - Balance out 1.6m loan from Kenny",
-      "count": 1,
-      "price": -960000.0,
-      "number": 142
+      "count": 3,
+      "price": -160000.0,
+      "number": 143
     },
     {
       "name": "31/05/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 143
+      "number": 144
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 144
+      "number": 145
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 145
+      "number": 146
     },
     {
       "name": "________________     JUNE    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 146
+      "number": 147
+    },
+    {
+      "name": "Kenny's 1.5m for Upfront",
+      "count": 1,
+      "price": -500000.0,
+      "number": 148
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 147
+      "number": 149
     },
     {
       "name": "Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 148
+      "number": 150
     },
     {
       "name": "20/06/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 149
+      "number": 151
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 150
+      "number": 152
     },
     {
       "name": "30/06/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 151
+      "number": 153
     },
     {
       "name": "30/06/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 152
+      "number": 154
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 153
+      "number": 155
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 154
+      "number": 156
+    },
+    {
+      "name": "31/05/2025 - Balance out 1.6m loan from Kenny",
+      "count": 3,
+      "price": -160000.0,
+      "number": 157
     },
     {
       "name": "________________     JULY   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 155
+      "number": 158
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 156
+      "number": 159
     },
     {
       "name": "20/07/2025 - Kenny's house rent for 2025",
-      "count": 1,
+      "count": 0,
       "price": -130000.0,
-      "number": 157
+      "number": 160
     },
     {
       "name": "15/07/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 158
+      "number": 161
     },
     {
       "name": "15/07/2025 - DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 159
+      "number": 162
     },
     {
       "name": "27/07/2025 - Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 160
+      "number": 163
     },
     {
       "name": "31/07/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 161
+      "number": 164
     },
     {
       "name": "31/07/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 162
+      "number": 165
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 163
+      "number": 166
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 164
+      "number": 167
     },
     {
       "name": "________________     AUGUST   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 165
+      "number": 168
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 166
+      "number": 169
     },
     {
       "name": "Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 167
+      "number": 170
     },
     {
       "name": "20/08/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 168
+      "number": 171
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 169
+      "number": 172
     },
     {
       "name": "31/08/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 170
+      "number": 173
     },
     {
       "name": "31/08/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 171
+      "number": 174
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 172
+      "number": 175
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 173
+      "number": 176
     },
     {
       "name": "________________     SEPTEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 174
+      "number": 177
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 175
+      "number": 178
     },
     {
       "name": "Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 176
+      "number": 179
     },
     {
       "name": "20/09/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 177
+      "number": 180
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 178
+      "number": 181
     },
     {
       "name": "30/09/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 179
+      "number": 182
     },
     {
       "name": "30/09/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 180
+      "number": 183
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 181
+      "number": 184
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 182
+      "number": 185
     },
     {
       "name": "________________     OCTOBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 183
+      "number": 186
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 184
+      "number": 187
     },
     {
       "name": "Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 185
+      "number": 188
     },
     {
       "name": "20/10/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 186
+      "number": 189
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 187
+      "number": 190
     },
     {
       "name": "31/10/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 188
+      "number": 191
     },
     {
       "name": "31/10/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 189
+      "number": 192
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 190
+      "number": 193
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 191
+      "number": 194
     },
     {
       "name": "________________     NOVEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 192
+      "number": 195
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 193
+      "number": 196
     },
     {
       "name": "Allowance from NYSC",
       "count": 2,
       "price": 77000.0,
-      "number": 194
+      "number": 197
     },
     {
       "name": "20/11/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 195
+      "number": 198
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 196
+      "number": 199
     },
     {
       "name": "30/11/2025 - Mom repays loans to me",
       "count": 1,
       "price": 91000.0,
-      "number": 197
+      "number": 200
     },
     {
       "name": "30/11/2025 - Sell palm oil",
       "count": 0,
       "price": 1000000.0,
-      "number": 198
+      "number": 201
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 199
+      "number": 202
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 200
+      "number": 203
     },
     {
       "name": "________________     DECEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 201
+      "number": 204
     },
     {
       "name": "Interest on Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 75000.0,
-      "number": 202
+      "number": 205
     },
     {
       "name": "20/12/2025 - Salary from DINATEN",
       "count": 1,
       "price": 700000.0,
-      "number": 203
+      "number": 206
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -700000.0,
-      "number": 204
+      "number": 207
     },
     {
       "name": "30/04/2025 - Mom repays loans to me",
       "count": 2,
       "price": 91000.0,
-      "number": 205
+      "number": 208
     },
     {
       "name": "Salary from Zent",
       "count": 2,
       "price": 100000.0,
-      "number": 206
+      "number": 209
     },
     {
       "name": "Zent Fix till December",
       "count": 2,
       "price": -100000.0,
-      "number": 207
+      "number": 210
     },
     {
       "name": "Kenny's 1.5m for Upfront",
       "count": 1,
       "price": 1500000.0,
-      "number": 208
+      "number": 211
+    },
+    {
+      "name": "30/04/2025 - Palmoil 10 kegs sale",
+      "count": 2,
+      "price": 500000.0,
+      "number": 212
     },
     {
       "name": "________________     KENNY   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 209
+      "number": 213
     },
     {
       "name": "Pay Kenny contribution as at 08/04/2025",
       "count": 1,
       "price": -350000,
-      "number": 210
+      "number": 214
     },
     {
       "name": "Pay Kenny remaining 600k on 700k",
       "count": 1,
       "price": -600000,
-      "number": 211
+      "number": 215
     },
     {
       "name": "Pay Kenny 1.6m interest",
       "count": 8,
       "price": -8000,
-      "number": 212
+      "number": 216
     },
     {
       "name": "Pay Kenny's 500k investment on upfront loan to her",
       "count": 1,
       "price": -500000.0,
-      "number": 213
+      "number": 217
     },
     {
       "name": "Pay Kenny's 1m investment on upfront loan to her",
       "count": 1,
       "price": -1000000.0,
-      "number": 214
+      "number": 218
     },
     {
       "name": "Pay Kenny's interest on 500k investment on upfront loan to her",
       "count": 10,
       "price": -25000.0,
-      "number": 215
+      "number": 219
     },
     {
       "name": "Pay Kenny's interest on 1m investment on upfront loan to her",
       "count": 9,
       "price": -50000.0,
-      "number": 216
+      "number": 220
     },
     {
       "name": "________________     prmpsmart   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 217
+      "number": 221
     },
     {
       "name": "DINATEN Fix payout in December, 7",
       "count": 0,
       "price": 700000.0,
-      "number": 218
+      "number": 222
     },
     {
       "name": "Zent Fix payout in December, 8",
       "count": 0,
       "price": 200000.0,
-      "number": 219
+      "number": 223
     },
     {
       "name": "Mom's remaining loan of 1.8m",
       "count": 0,
       "price": -1800000.0,
-      "number": 220
+      "number": 224
     }
   ]
 }
