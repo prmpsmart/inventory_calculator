@@ -1,7 +1,1 @@
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/selfish_cash_flow.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow_oscofed2.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow_oscofed.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/freedom_cash_flow.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/kenny_money_with_miracle.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/income_2025.json
-C:/Users/USER/Desktop/Workspace/PRMPSmart/inventory_calculator/monthly_income_2025.json
+/Users/miracle-apata/Documents/Workspace/PRMPSmart/inventory_calculator/selfish_cash_flow.json
