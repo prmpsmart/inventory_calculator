@@ -896,6 +896,12 @@
       "number": 148
     },
     {
+      "name": "24/05/2025 - Fix 700k of Kenny's 5m till December",
+      "count": 1,
+      "price": -700000.0,
+      "number": 160
+    },
+    {
       "name": "28/05/2025 - May Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
@@ -960,12 +966,6 @@
       "count": 1,
       "price": -1100000.0,
       "number": 159
-    },
-    {
-      "name": "Fix 700k of Kenny's 5m till December",
-      "count": 1,
-      "price": -700000.0,
-      "number": 160
     },
     {
       "name": "Interest on Kenny's 5m for Upfront",
