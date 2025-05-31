@@ -85,3 +85,4 @@ In my plan for you this year.
 - December
 
   - I will send you ₦ 260,000 to clear out OSCOFED ₦ 1,300,000 loan.
+

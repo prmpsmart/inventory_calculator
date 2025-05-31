@@ -914,93 +914,93 @@
       "number": 151
     },
     {
-      "name": "28/05/2025 - May Allowance from NYSC",
+      "name": "28/05/2025 - May Allowance from NYSC \u2705",
       "count": 1,
       "price": 77000.0,
       "number": 152
     },
     {
-      "name": "Project X 30% payment",
+      "name": "28/05/2025 - Project X 30% payment \u2705",
       "count": 1,
       "price": 150000.0,
       "number": 153
     },
     {
-      "name": "31/05/2025 - Salary from Truck and Wheels",
+      "name": "31/05/2025 - Salary from Truck and Wheels \u2705",
       "count": 1,
       "price": 70000.0,
       "number": 154
     },
     {
-      "name": "30/05/2025 - Mom repays part 3",
+      "name": "30/05/2025 - Mom repays part 3 \u2705",
       "count": 1,
       "price": 1250000.0,
       "number": 155
     },
     {
-      "name": "15/05/2025 - Pay Victoria",
-      "count": 1,
-      "price": -18000.0,
-      "number": 156
-    },
-    {
       "name": "________________     JUNE    _________________",
       "count": 0,
       "price": 0.0,
+      "number": 156
+    },
+    {
+      "name": "Kenny's 5m for Upfront \u2705",
+      "count": 1,
+      "price": -3200000.0,
       "number": 157
     },
     {
-      "name": "Kenny's 5m for Upfront",
+      "name": "Give mom 700k out of 1.1m to clear her loan \u2705",
       "count": 1,
-      "price": -3200000.0,
+      "price": -700000.0,
       "number": 158
     },
     {
-      "name": "Give mom 700k out of 1.1m to clear her loan",
-      "count": 1,
-      "price": -700000.0,
-      "number": 159
-    },
-    {
-      "name": "Interest on Kenny's 5m for Upfront",
+      "name": "Interest on Kenny's 5m for Upfront \u2705",
       "count": 10,
       "price": 20000.0,
-      "number": 160
+      "number": 159
     },
     {
       "name": "June Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 161
+      "number": 160
     },
     {
       "name": "20/06/2025 - Salary from DINATEN",
       "count": 1,
       "price": 880000.0,
-      "number": 162
+      "number": 161
     },
     {
       "name": "30/06/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 163
+      "number": 162
     },
     {
       "name": "Salary from Zent",
       "count": 1,
       "price": 50000.0,
-      "number": 164
+      "number": 163
     },
     {
       "name": "Zent Fix till December",
       "count": 1,
       "price": -50000.0,
-      "number": 165
+      "number": 164
     },
     {
       "name": "31/05/2025 - Balance out 1.6m loan from Kenny",
       "count": 3,
       "price": -160000.0,
+      "number": 165
+    },
+    {
+      "name": "Pay Victoria",
+      "count": 1,
+      "price": -18000.0,
       "number": 166
     },
     {
