@@ -968,7 +968,7 @@
       "number": 160
     },
     {
-      "name": "01/06/2025 - Victoria contribution",
+      "name": "01/06/2025 - Victoria contribution \u2705",
       "count": 1,
       "price": 20000.0,
       "number": 161
@@ -1232,12 +1232,6 @@
       "number": 204
     },
     {
-      "name": "30/11/2025 - Sell palm oil",
-      "count": 0,
-      "price": 1000000.0,
-      "number": 205
-    },
-    {
       "name": "Salary from Zent",
       "count": 1,
       "price": 50000.0,
@@ -1280,100 +1274,94 @@
       "number": 212
     },
     {
-      "name": "30/04/2025 - Mom repays loans to me (March)",
-      "count": 0,
-      "price": 91000.0,
-      "number": 213
-    },
-    {
       "name": "Salary from Zent",
       "count": 1,
       "price": 50000.0,
-      "number": 214
+      "number": 213
     },
     {
       "name": "Zent Fix till December",
       "count": 1,
       "price": -50000.0,
-      "number": 215
+      "number": 214
     },
     {
       "name": "Kenny's 5m for Upfront",
       "count": 1,
       "price": 3200000.0,
-      "number": 216
+      "number": 215
     },
     {
       "name": "30/04/2025 - Palmoil 10 kegs sale",
       "count": 1,
       "price": 500000.0,
-      "number": 217
+      "number": 216
     },
     {
       "name": "________________     KENNY   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 218
+      "number": 217
     },
     {
       "name": "Pay Kenny contribution as at 08/04/2025",
       "count": 1,
       "price": -500000,
-      "number": 219
+      "number": 218
     },
     {
       "name": "Pay Kenny remaining 600k on 700k",
       "count": 1,
       "price": -600000,
-      "number": 220
+      "number": 219
     },
     {
       "name": "Pay Kenny 1.6m interest",
       "count": 8,
       "price": -8000,
-      "number": 221
+      "number": 220
     },
     {
       "name": "Pay Kenny's 5m investment on upfront loan to her",
       "count": 1,
       "price": -5000000.0,
-      "number": 222
+      "number": 221
     },
     {
       "name": "Pay Kenny's interest on 500k investment on upfront loan to her",
       "count": 3,
       "price": -25000.0,
-      "number": 223
+      "number": 222
     },
     {
       "name": "Pay Kenny's interest on 1m investment on upfront loan to her",
       "count": 2,
       "price": -50000.0,
-      "number": 224
+      "number": 223
     },
     {
       "name": "Pay Kenny's interest on 5m investment on upfront loan to her",
       "count": 7,
       "price": -200000.0,
-      "number": 225
+      "number": 224
     },
     {
       "name": "________________     prmpsmart   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 226
+      "number": 225
     },
     {
       "name": "DINATEN Fix payout in December, 6",
       "count": 0,
       "price": 880000.0,
-      "number": 227
+      "number": 226
     },
     {
       "name": "Zent Fix payout in December, 8",
       "count": 0,
       "price": 50000.0,
-      "number": 228
+      "number": 227
     }
   ]
 }
