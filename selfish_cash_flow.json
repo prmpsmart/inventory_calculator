@@ -986,262 +986,286 @@
       "number": 163
     },
     {
-      "name": "June Allowance from NYSC",
-      "count": 1,
-      "price": 77000.0,
+      "name": "13/06/2025 - Pay Kenny 1.6m interest \u2705",
+      "count": 8,
+      "price": -8000,
       "number": 164
     },
     {
-      "name": "20/06/2025 - Salary from DINATEN",
-      "count": 1,
-      "price": 880000.0,
+      "name": "13/06/2025 - Pay Kenny's interest on 500k investment on upfront loan to her \u2705",
+      "count": 3,
+      "price": -25000.0,
       "number": 165
     },
     {
-      "name": "30/06/2025 - Salary from Truck and Wheels",
-      "count": 1,
-      "price": 70000.0,
+      "name": "13/06/2025 - Pay Kenny's interest on 1m investment on upfront loan to her \u2705",
+      "count": 2,
+      "price": -50000.0,
       "number": 166
+    },
+    {
+      "name": "13/06/2025 - Pay Kenny's interest on 5m investment on upfront loan to her \u2705",
+      "count": 1,
+      "price": -200000.0,
+      "number": 167
+    },
+    {
+      "name": "13/06/2025 - Pay 1.5m out of Kenny's 5m investment on upfront loan to her, remains 3.5m \u2705",
+      "count": 1,
+      "price": -1500000.0,
+      "number": 168
+    },
+    {
+      "name": "16/06/2025 - Mom pays 1.5m out of 3.2m upfront loan to her",
+      "count": 1,
+      "price": 1500000.0,
+      "number": 169
+    },
+    {
+      "name": "16/06/2025 - Pay 1.5m out of Kenny's 5m investment on upfront loan to her, remains 2m",
+      "count": 1,
+      "price": -1500000.0,
+      "number": 170
+    },
+    {
+      "name": "18/06/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 880000.0,
+      "number": 171
     },
     {
       "name": "31/05/2025 - Balance out 1.6m loan from Kenny",
       "count": 3,
       "price": -160000.0,
-      "number": 167
-    },
-    {
-      "name": "Mum returns 3.2m upfront",
-      "count": 1,
-      "price": 3200000.0,
-      "number": 168
-    },
-    {
-      "name": "Pay Kenny's 5m investment on upfront loan to her",
-      "count": 1,
-      "price": -5000000.0,
-      "number": 169
-    },
-    {
-      "name": "Pay Kenny 1.6m interest",
-      "count": 8,
-      "price": -8000,
-      "number": 170
-    },
-    {
-      "name": "Pay Kenny's interest on 500k investment on upfront loan to her",
-      "count": 3,
-      "price": -25000.0,
-      "number": 171
-    },
-    {
-      "name": "Pay Kenny's interest on 1m investment on upfront loan to her",
-      "count": 2,
-      "price": -50000.0,
       "number": 172
     },
     {
-      "name": "Pay Kenny's interest on 5m investment on upfront loan to her",
+      "name": "Mom pays 1.7m out of 3.2m upfront loan to her",
       "count": 1,
-      "price": -200000.0,
+      "price": 1700000.0,
       "number": 173
     },
     {
-      "name": "________________     JULY   _________________",
-      "count": 0,
-      "price": 0.0,
+      "name": "Pay 1.7m out of Kenny's 5m investment on upfront loan to her, remains 300k",
+      "count": 1,
+      "price": -1700000.0,
       "number": 174
     },
     {
-      "name": "15/07/2025 - Salary from DINATEN",
+      "name": "20/06/2025 - Balance Pay Kenny's 5m investment on upfront loan to her",
       "count": 1,
-      "price": 880000.0,
+      "price": -300000.0,
       "number": 175
     },
     {
-      "name": "27/07/2025 - July Allowance from NYSC",
+      "name": "June Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
       "number": 176
     },
     {
-      "name": "31/07/2025 - Salary from Truck and Wheels",
+      "name": "29/06/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
       "number": 177
     },
     {
-      "name": "Pay Kenny remaining 600k on 700k",
-      "count": 1,
-      "price": -600000,
+      "name": "________________     JULY   _________________",
+      "count": 0,
+      "price": 0.0,
       "number": 178
     },
     {
-      "name": "________________     AUGUST   _________________",
-      "count": 0,
-      "price": 0.0,
+      "name": "15/07/2025 - Salary from DINATEN",
+      "count": 1,
+      "price": 800000.0,
       "number": 179
     },
     {
-      "name": "August Allowance from NYSC",
+      "name": "27/07/2025 - July Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
       "number": 180
     },
     {
+      "name": "31/07/2025 - Salary from Truck and Wheels",
+      "count": 1,
+      "price": 70000.0,
+      "number": 181
+    },
+    {
+      "name": "Pay Kenny remaining 600k on 700k",
+      "count": 1,
+      "price": -600000,
+      "number": 182
+    },
+    {
+      "name": "________________     AUGUST   _________________",
+      "count": 0,
+      "price": 0.0,
+      "number": 183
+    },
+    {
       "name": "20/08/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 700000.0,
-      "number": 181
+      "price": 800000.0,
+      "number": 184
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
-      "price": -700000.0,
-      "number": 182
+      "price": -800000.0,
+      "number": 185
     },
     {
       "name": "31/08/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 183
+      "number": 186
+    },
+    {
+      "name": "August Allowance from NYSC",
+      "count": 1,
+      "price": 77000.0,
+      "number": 187
     },
     {
       "name": "________________     SEPTEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 184
-    },
-    {
-      "name": "September Allowance from NYSC",
-      "count": 1,
-      "price": 77000.0,
-      "number": 185
+      "number": 188
     },
     {
       "name": "20/09/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 700000.0,
-      "number": 186
+      "price": 800000.0,
+      "number": 189
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
-      "price": -700000.0,
-      "number": 187
+      "price": -800000.0,
+      "number": 190
     },
     {
       "name": "30/09/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 188
+      "number": 191
+    },
+    {
+      "name": "September Allowance from NYSC",
+      "count": 1,
+      "price": 77000.0,
+      "number": 192
     },
     {
       "name": "________________     OCTOBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 189
-    },
-    {
-      "name": "October Allowance from NYSC",
-      "count": 1,
-      "price": 77000.0,
-      "number": 190
+      "number": 193
     },
     {
       "name": "20/10/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 700000.0,
-      "number": 191
+      "price": 800000.0,
+      "number": 194
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
-      "price": -700000.0,
-      "number": 192
+      "price": -800000.0,
+      "number": 195
     },
     {
       "name": "31/10/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 193
+      "number": 196
+    },
+    {
+      "name": "October Allowance from NYSC",
+      "count": 1,
+      "price": 77000.0,
+      "number": 197
     },
     {
       "name": "________________     NOVEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 194
-    },
-    {
-      "name": "November Allowance from NYSC",
-      "count": 2,
-      "price": 77000.0,
-      "number": 195
+      "number": 198
     },
     {
       "name": "20/11/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 700000.0,
-      "number": 196
+      "price": 800000.0,
+      "number": 199
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
-      "price": -700000.0,
-      "number": 197
+      "price": -800000.0,
+      "number": 200
     },
     {
       "name": "Pay Victoria",
       "count": 1,
       "price": -38000.0,
-      "number": 198
+      "number": 201
+    },
+    {
+      "name": "November Allowance from NYSC",
+      "count": 2,
+      "price": 77000.0,
+      "number": 202
     },
     {
       "name": "________________     DECEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 199
+      "number": 203
     },
     {
       "name": "20/12/2025 - Salary from DINATEN",
       "count": 1,
-      "price": 700000.0,
-      "number": 200
+      "price": 800000.0,
+      "number": 204
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
-      "price": -700000.0,
-      "number": 201
+      "price": -800000.0,
+      "number": 205
     },
     {
       "name": "30/04/2025 - Palmoil 10 kegs sale",
       "count": 1,
       "price": 500000.0,
-      "number": 202
+      "number": 206
     },
     {
       "name": "________________     KENNY   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 203
+      "number": 207
     },
     {
       "name": "Pay Kenny contribution as at 08/04/2025",
       "count": 1,
       "price": -500000,
-      "number": 204
+      "number": 208
     },
     {
       "name": "________________     prmpsmart   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 205
+      "number": 209
     },
     {
       "name": "DINATEN Fix payout in December, 5",
       "count": 0,
       "price": 800000.0,
-      "number": 206
+      "number": 210
     }
   ]
 }
