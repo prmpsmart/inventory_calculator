@@ -14,7 +14,7 @@ class MainWindow(QWidget):
 
         MainWindow.instances.append(self)
 
-        self.setMinimumSize(1000, 500)
+        self.setMinimumSize(900, 500)
 
         self._parent = parent
         self.saved = True
@@ -189,7 +189,7 @@ class MainWindow(QWidget):
             )
             self.setGeometry(new_main_window_geometry)
         else:
-            self.setGeometry(907, 31, 1000, 1000)
+            self.setGeometry(800, 31, 1000, 1000)
             ...
 
         self.setTitle()

@@ -1184,190 +1184,334 @@
       "number": 196
     },
     {
+      "name": "19/07/2025 - Inverter revamping \u2705",
+      "count": 1,
+      "price": -90000.0,
+      "number": 197
+    },
+    {
+      "name": "19/07/2025 - Resin balance 1 - 28.1k \u2705",
+      "count": 1,
+      "price": -28100.0,
+      "number": 198
+    },
+    {
+      "name": "20/07/2025 - Kenny hairdo \u2705",
+      "count": 1,
+      "price": -20000.0,
+      "number": 199
+    },
+    {
+      "name": "20/07/2025 - July expenses \u2705",
+      "count": 1,
+      "price": -78999.0,
+      "number": 200
+    },
+    {
+      "name": "21/07/2025 - Resin balance 2 - 28.1k \u2705",
+      "count": 1,
+      "price": -28100.0,
+      "number": 201
+    },
+    {
+      "name": "23/07/2025 - Mom pays 500k of out 1.6mremaining upfront loan \u2705",
+      "count": 1,
+      "price": 500000.0,
+      "number": 202
+    },
+    {
+      "name": "23/07/2025 - Transport money to Akure 50k \u2705",
+      "count": 1,
+      "price": -50000.0,
+      "number": 203
+    },
+    {
+      "name": "24/07/2025 - OxyTrack first payment of 700k \u2705",
+      "count": 1,
+      "price": 700000.0,
+      "number": 204
+    },
+    {
+      "name": "24/07/2025 - Birthday cake for APQ \u2705",
+      "count": 1,
+      "price": -15000.0,
+      "number": 205
+    },
+    {
+      "name": "24/07/2025 - Birthday 7up and Mirinda for APQ \u2705",
+      "count": 1,
+      "price": -9000.0,
+      "number": 206
+    },
+    {
+      "name": "24/07/2025 - Birthday celebration for CDS \u2705",
+      "count": 1,
+      "price": -11500.0,
+      "number": 207
+    },
+    {
+      "name": "24/07/2025 - OxyTrack design first payment of 55k \u2705",
+      "count": 1,
+      "price": -55000.0,
+      "number": 208
+    },
+    {
+      "name": "24/07/2025 - OxyTrack backend first payment of 322.5k \u2705",
+      "count": 1,
+      "price": -322500.0,
+      "number": 209
+    },
+    {
+      "name": "24/07/2025 - Kenny 500k to piggyvest \u2705",
+      "count": 1,
+      "price": -500000.0,
+      "number": 210
+    },
+    {
+      "name": "24/07/2025 - Miracle 200k to piggyvest \u2705",
+      "count": 1,
+      "price": -200000.0,
+      "number": 211
+    },
+    {
+      "name": "27/07/2025 - Birthday celebraton for Akure",
+      "count": 1,
+      "price": -100000.0,
+      "number": 212
+    },
+    {
       "name": "27/07/2025 - July Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 197
+      "number": 213
     },
     {
       "name": "27/07/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 198
+      "number": 214
     },
     {
-      "name": "Mom pays 1.6m remaining upfront loan",
+      "name": "28/07/2025 - Token Realty July Pay",
       "count": 1,
-      "price": 1600000.0,
-      "number": 199
+      "price": 150000.0,
+      "number": 215
     },
     {
-      "name": "________________     AUGUST   _________________",
+      "name": "24/07/2025 - Miracle 150k to piggyvest",
+      "count": 1,
+      "price": -150000.0,
+      "number": 216
+    },
+    {
+      "name": "Mom pays 1.1m remaining upfront loan",
+      "count": 1,
+      "price": 1100000.0,
+      "number": 217
+    },
+    {
+      "name": "Put in piggyvest 1.1m",
+      "count": 1,
+      "price": -1100000.0,
+      "number": 218
+    },
+    {
+      "name": "1",
+      "count": 1,
+      "price": -1.0,
+      "number": 219
+    },
+    {
+      "name": "________________     AUGUST    _________________",
       "count": 0,
       "price": 0.0,
-      "number": 200
+      "number": 220
+    },
+    {
+      "name": "04/08/2025 - 40k to Mum",
+      "count": 1,
+      "price": -40000.0,
+      "number": 221
+    },
+    {
+      "name": "04/08/2025 - 40k to Peculiar",
+      "count": 1,
+      "price": -40000.0,
+      "number": 222
+    },
+    {
+      "name": "04/08/2025 - 40k to Kenny",
+      "count": 1,
+      "price": -40000.0,
+      "number": 223
+    },
+    {
+      "name": "04/08/2025 - 20k to Vic",
+      "count": 1,
+      "price": -20000.0,
+      "number": 224
     },
     {
       "name": "20/08/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 201
+      "number": 225
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 202
+      "number": 226
     },
     {
       "name": "31/08/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 203
+      "number": 227
     },
     {
       "name": "August Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 204
+      "number": 228
     },
     {
       "name": "________________     SEPTEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 205
+      "number": 229
     },
     {
       "name": "20/09/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 206
+      "number": 230
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 207
+      "number": 231
     },
     {
       "name": "30/09/2025 - Salary from Truck and Wheels",
       "count": 1,
       "price": 70000.0,
-      "number": 208
+      "number": 232
     },
     {
       "name": "September Allowance from NYSC",
       "count": 1,
       "price": 77000.0,
-      "number": 209
+      "number": 233
     },
     {
       "name": "________________     OCTOBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 210
+      "number": 234
     },
     {
       "name": "20/10/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 211
+      "number": 235
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 212
+      "number": 236
     },
     {
       "name": "31/10/2025 - Salary from Truck and Wheels",
       "count": 2,
       "price": 70000.0,
-      "number": 213
+      "number": 237
     },
     {
       "name": "October Allowance from NYSC",
       "count": 2,
       "price": 77000.0,
-      "number": 214
+      "number": 238
     },
     {
       "name": "________________     NOVEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 215
+      "number": 239
     },
     {
       "name": "20/11/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 216
+      "number": 240
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 217
+      "number": 241
     },
     {
       "name": "Pay Victoria",
       "count": 1,
       "price": -38000.0,
-      "number": 218
+      "number": 242
     },
     {
       "name": "________________     DECEMBER   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 219
+      "number": 243
     },
     {
       "name": "20/12/2025 - Salary from DINATEN",
       "count": 1,
       "price": 800000.0,
-      "number": 220
+      "number": 244
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 221
+      "number": 245
     },
     {
       "name": "DINATEN Fix till December",
       "count": 1,
       "price": -800000.0,
-      "number": 222
+      "number": 246
     },
     {
       "name": "30/04/2025 - Palmoil 10 kegs sale",
       "count": 1,
       "price": 500000.0,
-      "number": 223
+      "number": 247
     },
     {
       "name": "17/07/2025 - Mom repay 3m after 5 months \u2705",
       "count": 1,
       "price": 3000000.0,
-      "number": 224
+      "number": 248
     },
     {
-      "name": "Pay Kenny 5m",
+      "name": "Put in piggyvest Kenny 3m",
       "count": 1,
-      "price": -5000000,
-      "number": 225
+      "price": -3000000,
+      "number": 249
     },
     {
       "name": "________________     prmpsmart   _________________",
       "count": 0,
       "price": 0.0,
-      "number": 226
+      "number": 250
     },
     {
       "name": "DINATEN Fix payout in December, 4",
       "count": 0,
       "price": 880000.0,
-      "number": 227
+      "number": 251
     }
   ]
 }
