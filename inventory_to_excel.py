@@ -269,5 +269,5 @@ json_file = "./selfish_cash_flow.json"
 excel_file = inventory_to_excel(json_file)
 # os.system(excel_file)
 
-# jpdf_file = print_excel_to_pdf(excel_file)
+jpdf_file = print_excel_to_pdf(os.path.abspath(excel_file))
 # os.system(pdf_file)

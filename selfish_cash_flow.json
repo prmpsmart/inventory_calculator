@@ -1304,33 +1304,33 @@
       "number": 216
     },
     {
-      "name": "31/07/2025 - July Allowance from NYSC",
-      "count": 1,
-      "price": 77000.0,
+      "name": "________________     AUGUST    _________________",
+      "count": 0,
+      "price": 0.0,
       "number": 217
     },
     {
-      "name": "31/07/2025 - Token Realty July Pay",
+      "name": "July Allowance from NYSC",
       "count": 1,
-      "price": 150000.0,
+      "price": 77000.0,
       "number": 218
+    },
+    {
+      "name": "Token Realty July Pay",
+      "count": 0,
+      "price": 150000.0,
+      "number": 219
     },
     {
       "name": "Mom pays 1.1m remaining upfront loan",
       "count": 1,
       "price": 1100000.0,
-      "number": 219
+      "number": 220
     },
     {
       "name": "Put in piggyvest 1.1m",
       "count": 1,
       "price": -1100000.0,
-      "number": 220
-    },
-    {
-      "name": "________________     AUGUST    _________________",
-      "count": 0,
-      "price": 0.0,
       "number": 221
     },
     {
@@ -1486,7 +1486,7 @@
     {
       "name": "DINATEN Fix payout in December, 5",
       "count": 0,
-      "price": 880000.0,
+      "price": 800000.0,
       "number": 247
     }
   ]
